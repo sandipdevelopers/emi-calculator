@@ -1,0 +1,10 @@
+.main {
+    min-height: 100%;
+    background: var(---ion-color-tertiary, #f2f3f5);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ion-input {
+    --background: white;
+}

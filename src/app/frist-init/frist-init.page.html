@@ -1,0 +1,138 @@
+<ion-content class="ion-padding">
+   <div id="frist-init-screen">
+      <swiper-container #swiper [allowTouchMove]="false" [slidesperview]="1" [loop]="false" [pagination]="true">
+         <swiper-slide class="main">
+            <div class="slide">
+               <ion-img src="/assets/image/slider.jpg" alt="slider.jpg">
+               </ion-img>
+               <h4>
+                  Calculate Everything
+               </h4>
+               <p>
+                  Perform all calculations including Currency Conversions & a lot more
+               </p>
+            </div>
+         </swiper-slide>
+
+         <swiper-slide class="main">
+            <div class="slide">
+               <ion-grid class="menu">
+                  <ion-label>{{'Loan_Type' | translate}}</ion-label>
+                  <ion-row>
+                     <ion-col size="3" class="ion-no-padding">
+                        <ion-card class="active">
+                           <ion-icon name="home"></ion-icon>
+                           <h6 class="">{{'Home' | translate}}</h6>
+                        </ion-card>
+                     </ion-col>
+                     <ion-col size="3" class="ion-no-padding">
+                        <ion-card>
+                           <ion-icon name="person"></ion-icon>
+                           <h6 class="">{{'Personal' | translate}}</h6>
+                        </ion-card>
+                     </ion-col>
+                     <ion-col size="3" class="ion-no-padding">
+                        <ion-card>
+                           <ion-icon name="car-sport"></ion-icon>
+                           <h6 class="">{{'Car' | translate}}</h6>
+                        </ion-card>
+                     </ion-col>
+                     <ion-col size="3" class="ion-no-padding">
+                        <ion-card>
+                           <ion-icon name="calculator-outline"></ion-icon>
+                           <h6 class="">{{'SIP' | translate}}</h6>
+                        </ion-card>
+                     </ion-col>
+                  </ion-row>
+               </ion-grid>
+
+               <!-- Home Loan Amount -->
+               <ion-label for="loan_amount">
+                  {{'Home Loan Amount' | translate}}
+               </ion-label>
+               <ion-input type="number" mode="md" id="loan_amount" [(ngModel)]="object.amount" name="loan_amount"
+                  id="loan_amount" label="{{'Home Loan Amount' | translate}}" label-placement="floating" fill="outline"
+                  placeholder="{{'Home Loan Amount' | translate}}" disabled>
+               </ion-input>
+
+               <!-- Loan Tenure  Input  -->
+               <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <div>
+                     <ion-label for="loan_tenure">
+                        {{'Loan Tenure'| translate}}
+                     </ion-label>
+                     <ion-input type="number" mode="md" id="loan_tenure" [(ngModel)]="object.loan_tenure"
+                        name="loan_tenure" id="loan_tenure" label="{{'Loan Tenure'  | translate}}"
+                        label-placement="floating" fill="outline" placeholder="{{'Loan Tenure'  | translate}}" disabled>
+                     </ion-input>
+                  </div>
+
+                  <ion-segment mode="ios" value="year" [disabled]="true">
+                     <ion-segment-button value="year">
+                        <ion-label>{{'Years' | translate}}</ion-label>
+                     </ion-segment-button>
+                     <ion-segment-button value="month">
+                        <ion-label>{{'Month' |translate}}</ion-label>
+                     </ion-segment-button>
+                  </ion-segment>
+               </div>
+
+               <!-- Interest Rate -->
+               <ion-label for="interest_rate">
+                  {{'Interest Rate'| translate}}
+               </ion-label>
+               <ion-input type="number" mode="md" id="interest_rate" [(ngModel)]="object.rate" name="loan_tenure"
+                  id="interest_rate" label="{{'Interest Rate'  | translate}}" label-placement="floating" fill="outline"
+                  placeholder="{{'Interest Rate'  | translate}}" disabled>
+               </ion-input>
+            </div>
+         </swiper-slide>
+
+         <swiper-slide class="main" >
+            <div class="slide">
+               <h6>
+                  {{'Select Language' | translate }}
+               </h6>
+
+               <ion-card class="ion-margin-top" style="border: none;">
+                  <ion-radio-group value="en"  [(ngModel)]="helper.tempCurrentLan">
+                     <ion-item>
+                        <ion-radio justify="space-between" default value="en">
+                           {{'English' | translate}}
+                        </ion-radio>
+                     </ion-item>
+
+                     <ion-item>
+                        <ion-radio justify="space-between" value="fil">
+                           {{'Filipino' |translate }}
+                        </ion-radio>
+                     </ion-item>
+
+                     <ion-item>
+                        <ion-radio justify="space-between" value="sw">
+                           {{'Swahili' | translate}}
+                        </ion-radio>
+                     </ion-item>
+
+                     <ion-item lines="none">
+                        <ion-radio justify="space-between" value="hi">
+                           {{'Hindi' | translate}}
+                        </ion-radio>
+                     </ion-item>
+                  </ion-radio-group>
+               </ion-card>
+            </div>
+         </swiper-slide>
+      </swiper-container>
+
+      <div class="next_prev">
+         <ion-button *ngIf="swiperRef?.nativeElement.swiper.activeIndex !== 2" (click)="sliderChanges()">
+            {{'next' | uppercase}}
+         </ion-button>
+
+         <ion-button *ngIf="swiperRef?.nativeElement.swiper.activeIndex === 2" (click)="goToMain()">
+            {{'Get started' | uppercase}}
+         </ion-button>
+      </div>
+   </div>
+</ion-content>

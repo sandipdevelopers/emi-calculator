@@ -1,0 +1,33 @@
+ion-content {
+  // --padding-top: 0px;
+  // --padding-bottom: 0px;
+}
+
+.main {
+  min-height: 100%;
+  background: var(---ion-color-tertiary, #f2f3f5);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.main ion-card {
+  box-shadow: none !important;
+}
+
+ion-accordion {
+  --ion-color-base: #ffffff !important;
+}
+
+th, td {
+  border: 1px solid;
+  border-color:#938df9a1;
+  padding: 2px;
+}
+.border-none th {
+    border: none;
+}
+
+ion-button {
+  min-width: 150px;
+}
+

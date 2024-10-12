@@ -1,0 +1,7 @@
+{
+  "name": "EmiCalculator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

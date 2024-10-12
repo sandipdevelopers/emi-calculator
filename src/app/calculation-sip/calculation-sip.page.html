@@ -1,0 +1,37 @@
+<ion-header class="box-shadow-none ion-no-border">
+  <ion-toolbar mode="md">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{'Calculate SIP' | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="main" *ngIf="sipAmount">
+
+    <div id="canvas" *ngIf="sipAmount" style="display: flex;justify-content: center;margin-top: 10px; height: 250px;">
+      <canvas baseChart [labels]="doughnutChartLabels" [datasets]="doughnutChartDatasets" [legend]="true"
+        [type]="'doughnut'">
+      </canvas>
+    </div>
+
+    <ion-list class="ion-margin-top">
+      <ion-item>
+        <ion-label>{{'Invested amount' | translate}}</ion-label>
+        <ion-label class="ion-text-end" slot="end">{{data['totalInvestment'] }}</ion-label>
+      </ion-item>
+
+
+      <ion-item>
+        <ion-label>{{'Est. returns' | translate}}</ion-label>
+        <ion-label class="ion-text-end" *ngIf="data['totalInterest']">{{data['totalInterest'].toFixed(2)}}</ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>{{'Total value' | translate}}</ion-label>
+        <ion-label *ngIf="sipAmount" class="ion-text-end">{{sipAmount.toFixed(2)}}</ion-label>
+      </ion-item>
+
+    </ion-list>
+  </div>
+</ion-content>

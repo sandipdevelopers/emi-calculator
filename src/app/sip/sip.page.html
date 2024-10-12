@@ -1,0 +1,54 @@
+<ion-header class="box-shadow-none ion-no-border">
+  <ion-toolbar mode="md">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{'SIP Calculator' | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <div class="main">
+
+
+    <label for="monthlyInvestment">{{'Monthly Investment' | translate}}</label>
+    <ion-input type="number" mode="md" id="monthlyInvestment" [(ngModel)]="monthlyInvestment" name="monthlyInvestment"
+      style="margin-bottom: 10px;" id="monthlyInvestment" label="{{'Monthly Investment' | translate}}"
+      label-placement="floating" fill="outline" placeholder="{{'Monthly Investment' | translate}}"></ion-input>
+
+    <!-- <ion-label position="floating">Monthly Investment</ion-label>
+      <ion-input type="number" mode="md" fill="outline" placeholder="Monthly Investment" min="0"
+        [(ngModel)]="monthlyInvestment"></ion-input> -->
+
+    <ion-label for="annualInterestRate"> {{'Annual Interest Rate' | translate}}</ion-label>
+    <ion-input type="number" mode="md" id="annualInterestRate" label="{{'Annual Interest Rate' | translate}}"
+      name="annualInterestRate" placeholder="{{'Annual Interest Rate' | translate}}" min="0"
+      [(ngModel)]="annualInterestRate" style="margin-bottom: 10px;" label-placement="floating"
+      fill="outline"></ion-input>
+
+    <ion-label for="numberOfYears"> {{'Number of Years' | translate}}</ion-label>
+    <ion-input type="number" mode="md" id="numberOfYears" label="{{'Number of Years' | translate}}"
+      name="numberOfYears" placeholder="{{'Number of Years' | translate}}" min="0"
+      [(ngModel)]="numberOfYears" style="margin-bottom: 10px;" label-placement="floating"
+      fill="outline"></ion-input>
+
+  </div>
+
+
+  <!-- <ion-item *ngIf="sipAmount">
+    <ion-label position="floating">Total Amount after {{ numberOfYears }} years</ion-label>
+    <ion-input type="text" readonly="true" value="{{ sipAmount | currency: 'INR' }}"></ion-input>
+  </ion-item>
+
+  <div id="canvas"  *ngIf="sipAmount" style="display: flex;justify-content: center;margin-top: 10px; height: 250px;">
+    <canvas baseChart [labels]="doughnutChartLabels" [datasets]="doughnutChartDatasets"
+    [legend]="true" [type]="'doughnut'">
+  </canvas>
+  </div> -->
+</ion-content>
+
+
+<ion-footer class="app-footer-class ion-no-border">
+  <div style="padding: 5px;">
+    <ion-button (click)="calculateSIP()" expand="block">{{'Calculate SIP' | translate}}</ion-button>
+  </div>
+</ion-footer>

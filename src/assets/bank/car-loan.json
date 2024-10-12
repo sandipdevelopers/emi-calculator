@@ -1,0 +1,562 @@
+{
+    "en": [
+        {
+            "title": "Car Loan Interest Rate Comparison for All Banks",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "State Bank of India",
+                    "rate": "8.75% p.a. onwards",
+                    "emiPerLac": "Rs.1,596 onwards"
+                },
+                {
+                    "bname": "Indian Overseas Bank",
+                    "rate": "8.85% p.a. onwards",
+                    "emiPerLac": "Rs.1,601 onwards"
+                },
+                {
+                    "bname": "Jammu Kashmir Bank",
+                    "rate": "RLLR + 0.75% p.a. onwards, RLLR + 0.25% p.a. onwards",
+                    "emiPerLac": "Contact the bank"
+                },
+                {
+                    "bname": "Canara Bank",
+                    "rate": "8.95% p.a. onwards",
+                    "emiPerLac": "Rs.1,594 onwards"
+                },
+                {
+                    "bname": "HDFC Bank",
+                    "rate": "8.75% p.a. onwards",
+                    "emiPerLac": "Rs.1,608 onwards"
+                },
+                {
+                    "bname": "ICICI Bank",
+                    "rate": "9.10% p.a. onwards",
+                    "emiPerLac": "Rs.1,614 onwards"
+                },
+                {
+                    "bname": "Karur Vysya Bank",
+                    "rate": "9.55% p.a. onwards",
+                    "emiPerLac": "Rs.1,637 onwards"
+                },
+                {
+                    "bname": "South Indian Bank",
+                    "rate": "Fixed: 8.75% p.a. onwards, Floating: 9.27% p.a. onwards",
+                    "emiPerLac": "Rs.1,596 onwards, Rs.1,623 onwards"
+                },
+                {
+                    "bname": "IDBI Bank",
+                    "rate": "8.80% p.a. onwards, 8.80% p.a. onwards",
+                    "emiPerLac": "Rs.1,599 onwards"
+                },
+                {
+                    "bname": "Yes Bank",
+                    "rate": "Contact the bank",
+                    "emiPerLac": "Contact the bank"
+                },
+                {
+                    "bname": "Karnataka Bank",
+                    "rate": "8.88% p.a. onwards",
+                    "emiPerLac": "Rs.1,611 onwards"
+                },
+                {
+                    "bname": "Federal Bank of India",
+                    "rate": "8.85% p.a. onwards",
+                    "emiPerLac": "Rs.1,601 onwards"
+                },
+                {
+                    "bname": "Tamilnad Mercantile Bank",
+                    "rate": "10.70% p.a. onwards",
+                    "emiPerLac": "Rs.1,697 onwards"
+                },
+                {
+                    "bname": "Punjab National Bank",
+                    "rate": "Floating: 8.75% p.a. onwards, Fixed: 9.75% p.a. onwards",
+                    "emiPerLac": "Rs.1,596 onwards, Rs.1,647 onwards"
+                },
+                {
+                    "bname": "Union Bank of India",
+                    "rate": "8.70% p.a. onwards",
+                    "emiPerLac": "Rs.1,594 onwards"
+                },
+                {
+                    "bname": "Axis Bank",
+                    "rate": "9.25% p.a. onwards",
+                    "emiPerLac": "Rs.1,619 onwards"
+                },
+                {
+                    "bname": "Bank of Baroda",
+                    "rate": "Fixed: 8.80% p.a. onwards, Floating: 8.80% p.a. onwards",
+                    "emiPerLac": "Rs.1,599 onwards"
+                },
+                {
+                    "bname": "Bank of India",
+                    "rate": "8.75% p.a. onwards",
+                    "emiPerLac": "Rs.1,596 onwards"
+                }
+            ]
+        },
+        {
+            "title": "Types of Car Loan Interest Rates - Fixed and Floating",
+            "description": "Car loan interest rates can be fixed or floating in nature. A fixed interest rate refers to a rate which remains constant throughout the loan tenure. Factors like market fluctuations do not affect fixed interest rates. On the other hand, a floating interest rate is a type of rate that keeps getting modified as per changing trends in the financial market.",
+            "type": "table-diff",
+            "intRateDiff": [
+                {
+                    "fixedIntRate": "Interest rate is higher",
+                    "floatIntRate": "Interest rate is lower"
+                },
+                {
+                    "fixedIntRate": "EMIs will remain constant",
+                    "floatIntRate": "EMIs will change according to MCLR changes"
+                },
+                {
+                    "fixedIntRate": "Comes with lower risk",
+                    "floatIntRate": "Comes with higher risk"
+                },
+                {
+                    "fixedIntRate": "Easy to prepare budgets with these rates",
+                    "floatIntRate": "Tough to maintain budgets as rates keep changing"
+                },
+                {
+                    "fixedIntRate": "Offers security to borrowers",
+                    "floatIntRate": "Offers savings to borrowers"
+                },
+                {
+                    "fixedIntRate": "Good for a short loan tenure (3 to 10 years)",
+                    "floatIntRate": "Good for a long loan tenure (20 to 30 years)"
+                }
+            ]
+        },
+        {
+            "title": "Factors that Affect Car Loan Interest Rates",
+            "type": "options",
+            "data": [
+                "Credit Score",
+                "Repayment Tenure",
+                "Loan Amount",
+                "Relationship with the lender",
+                "Income"
+            ]
+        }
+    ],
+    "hi": [
+        {
+            "title": "सभी बैंकों के लिए कार ऋण ब्याज दर की तुलना",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "भारतीय स्टेट बैंक",
+                    "rate": "8.75% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,596 से आगे"
+                },
+                {
+                    "bname": "इंडियन ओवरसीज बैंक",
+                    "rate": "8.85% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,601 से आगे"
+                },
+                {
+                    "bname": "जम्मू कश्मीर बैंक",
+                    "rate": "RLLR + 0.75% प्रति वर्ष से आगे, RLLR + 0.25% प्रति वर्ष से आगे",
+                    "emiPerLac": "बैंक से संपर्क करें"
+                },
+                {
+                    "bname": "केनरा बैंक",
+                    "rate": "8.95% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,594 से आगे"
+                },
+                {
+                    "bname": "एचडीएफसी बैंक",
+                    "rate": "8.75% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,608 से आगे"
+                },
+                {
+                    "bname": "आईसीआईसीआई बैंक",
+                    "rate": "9.10% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,614 से आगे"
+                },
+                {
+                    "bname": "करूर वैस्या बैंक",
+                    "rate": "9.55% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,637 से आगे"
+                },
+                {
+                    "bname": "साउथ इंडियन बैंक",
+                    "rate": "फिक्स्ड: 8.75% प्रति वर्ष से आगे, फ्लोटिंग: 9.27% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,596 से आगे, रु. 1,623 से आगे"
+                },
+                {
+                    "bname": "आईडीबीआई बैंक",
+                    "rate": "8.80% प्रति वर्ष से आगे, 8.80% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,599 से आगे"
+                },
+                {
+                    "bname": "यस बैंक",
+                    "rate": "बैंक से संपर्क करें",
+                    "emiPerLac": "बैंक से संपर्क करें"
+                },
+                {
+                    "bname": "कर्नाटक बैंक",
+                    "rate": "8.88% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,611 से आगे"
+                },
+                {
+                    "bname": "फेडरल बैंक ऑफ इंडिया",
+                    "rate": "8.85% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,601 से आगे"
+                },
+                {
+                    "bname": "तमिलनाड मर्चेंटाइल बैंक",
+                    "rate": "10.70% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,697 से आगे"
+                },
+                {
+                    "bname": "पंजाब नेशनल बैंक",
+                    "rate": "फ्लोटिंग: 8.75% प्रति वर्ष से आगे, फिक्स्ड: 9.75% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,596 से आगे, रु. 1,647 से आगे"
+                },
+                {
+                    "bname": "यूनियन बैंक ऑफ इंडिया",
+                    "rate": "8.70% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,594 से आगे"
+                },
+                {
+                    "bname": "एक्सिस बैंक",
+                    "rate": "9.25% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,619 से आगे"
+                },
+                {
+                    "bname": "बैंक ऑफ बड़ौदा",
+                    "rate": "फिक्स्ड: 8.80% प्रति वर्ष से आगे, फ्लोटिंग: 8.80% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,599 से आगे"
+                },
+                {
+                    "bname": "बैंक ऑफ इंडिया",
+                    "rate": "8.75% प्रति वर्ष से आगे",
+                    "emiPerLac": "रु. 1,596 से आगे"
+                }
+            ]
+        },
+        {
+            "title": "कार ऋण ब्याज दरों के प्रकार - स्थिर और फ्लोटिंग",
+            "type": "table-diff",
+            "description": "कार ऋण ब्याज दरें स्थिर या फ्लोटिंग हो सकती हैं। एक स्थिर ब्याज दर एक दर का संदर्भ है जो ऋण की अवधि के दौरान स्थिर रहती है। बाजार की फ्लक्चुएशन्स जैसे कारक स्थिर ब्याज दरों को प्रभावित नहीं करते हैं। वहीं, एक फ्लोटिंग ब्याज दर एक प्रकार की दर है जो वित्तीय बाजार में परिवर्तन करने वाली प्रवृत्तियों के अनुसार परिवर्तित होती रहती है।",
+            "intRateDiff": [
+                {
+                    "fixedIntRate": "ब्याज दर उच्च है",
+                    "floatIntRate": "ब्याज दर कम है"
+                },
+                {
+                    "fixedIntRate": "ईएमआई लगातार बनी रहेगी",
+                    "floatIntRate": "ईएमआई एमसीएलआर परिवर्तनों के अनुसार बदलेंगी"
+                },
+                {
+                    "fixedIntRate": "कम जोखिम के साथ आता है",
+                    "floatIntRate": "अधिक जोखिम के साथ आता है"
+                },
+                {
+                    "fixedIntRate": "इन दरों के साथ बजट तैयार करना आसान है",
+                    "floatIntRate": "दरों के बदलते रहने के कारण बजट को बनाए रखना कठिन है"
+                },
+                {
+                    "fixedIntRate": "ऋणदाताओं को सुरक्षा प्रदान करता है",
+                    "floatIntRate": "ऋणदाताओं को बचत प्रदान करता है"
+                },
+                {
+                    "fixedIntRate": "एक छोटी ऋण अवधि (3 से 10 वर्ष) के लिए अच्छा है",
+                    "floatIntRate": "एक लंबी ऋण अवधि (20 से 30 वर्ष) के लिए अच्छा है"
+                }
+            ]
+        },
+        {
+            "title": "कार ऋण ब्याज दरों को प्रभावित करने वाले कारक",
+            "type": "options",
+            "data": [
+                "क्रेडिट स्कोर",
+                "अदायगी की अवधि",
+                "ऋण राशि",
+                "ऋणदाता के साथ संबंध",
+                "आय"
+            ]
+        }
+    ],
+    "fil": [
+        {
+            "title": "Paghambing ng Mga Rate ng Interes sa Pautang ng Kotse para sa Lahat ng mga Bangko",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "State Bank of India",
+                    "rate": "Mula sa 8.75% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,596 pataas"
+                },
+                {
+                    "bname": "Indian Overseas Bank",
+                    "rate": "Mula sa 8.85% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,601 pataas"
+                },
+                {
+                    "bname": "Jammu Kashmir Bank",
+                    "rate": "RLLR + 0.75% p.a. pataas, RLLR + 0.25% p.a. pataas",
+                    "emiPerLac": "Makipag-ugnay sa bangko"
+                },
+                {
+                    "bname": "Canara Bank",
+                    "rate": "Mula sa 8.95% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,594 pataas"
+                },
+                {
+                    "bname": "HDFC Bank",
+                    "rate": "Mula sa 8.75% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,608 pataas"
+                },
+                {
+                    "bname": "ICICI Bank",
+                    "rate": "Mula sa 9.10% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,614 pataas"
+                },
+                {
+                    "bname": "Karur Vysya Bank",
+                    "rate": "Mula sa 9.55% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,637 pataas"
+                },
+                {
+                    "bname": "South Indian Bank",
+                    "rate": "Fixed: Mula sa 8.75% p.a. pataas, Floating: Mula sa 9.27% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,596 pataas, Mula sa ₱1,623 pataas"
+                },
+                {
+                    "bname": "IDBI Bank",
+                    "rate": "Mula sa 8.80% p.a. pataas, Mula sa 8.80% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,599 pataas"
+                },
+                {
+                    "bname": "Yes Bank",
+                    "rate": "Makipag-ugnay sa bangko",
+                    "emiPerLac": "Makipag-ugnay sa bangko"
+                },
+                {
+                    "bname": "Karnataka Bank",
+                    "rate": "Mula sa 8.88% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,611 pataas"
+                },
+                {
+                    "bname": "Federal Bank of India",
+                    "rate": "Mula sa 8.85% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,601 pataas"
+                },
+                {
+                    "bname": "Tamilnad Mercantile Bank",
+                    "rate": "Mula sa 10.70% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,697 pataas"
+                },
+                {
+                    "bname": "Punjab National Bank",
+                    "rate": "Floating: Mula sa 8.75% p.a. pataas, Fixed: Mula sa 9.75% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,596 pataas, Mula sa ₱1,647 pataas"
+                },
+                {
+                    "bname": "Union Bank of India",
+                    "rate": "Mula sa 8.70% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,594 pataas"
+                },
+                {
+                    "bname": "Axis Bank",
+                    "rate": "Mula sa 9.25% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,619 pataas"
+                },
+                {
+                    "bname": "Bank of Baroda",
+                    "rate": "Fixed: Mula sa 8.80% p.a. pataas, Floating: Mula sa 8.80% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,599 pataas"
+                },
+                {
+                    "bname": "Bank of India",
+                    "rate": "Mula sa 8.75% p.a. pataas",
+                    "emiPerLac": "Mula sa ₱1,596 pataas"
+                }
+            ]
+        },
+        {
+            "title": "Uri ng Mga Rate ng Interes sa Auto Loan - Pumipirmi at Pumapalit",
+            "description": "Ang mga rate ng interes sa auto loan ay maaaring maging pumipirmi o pumapalit. Ang isang pumipirming rate ng interes ay tumutukoy sa isang rate na nananatiling pareho sa buong panahon ng loan. Ang mga salik tulad ng mga pagbabago sa merkado ay hindi nakakaapekto sa mga pumipirmi na rate ng interes. Sa kabilang banda, ang isang pumapalit na rate ng interes ay isang uri ng rate na patuloy na binabago ayon sa mga nagbabagong trend sa financial market.",
+            "type": "table-diff",
+            "intRateDiff": [
+                {
+                    "fixedIntRate": "Ang rate ng interes ay mas mataas",
+                    "floatIntRate": "Ang rate ng interes ay mas mababa"
+                },
+                {
+                    "fixedIntRate": "Ang mga EMI ay mananatiling pareho",
+                    "floatIntRate": "Ang mga EMI ay magbabago ayon sa mga pagbabago sa MCLR"
+                },
+                {
+                    "fixedIntRate": "May kaunting panganib",
+                    "floatIntRate": "May malaking panganib"
+                },
+                {
+                    "fixedIntRate": "Madaling magplano ng budget gamit ang mga rate na ito",
+                    "floatIntRate": "Mahirap panatilihin ang budget dahil sa patuloy na pagbabago ng mga rate"
+                },
+                {
+                    "fixedIntRate": "Nag-aalok ng seguridad sa mga mangungutang",
+                    "floatIntRate": "Nag-aalok ng pagtitipid sa mga mangungutang"
+                },
+                {
+                    "fixedIntRate": "Mabuti para sa maikling panahon ng loan (3 hanggang 10 taon)",
+                    "floatIntRate": "Mabuti para sa mahabang panahon ng loan (20 hanggang 30 taon)"
+                }
+            ]
+        },
+        {
+            "title": "Mga Salik na Nakakaapekto sa mga Rate ng Interes sa Auto Loan",
+            "type": "options",
+            "data": [
+                "Credit Score",
+                "Tagal ng Pagbabayad",
+                "Halaga ng Pautang",
+                "Ugnayan sa Lender",
+                "Kita"
+            ]
+        }
+    ],
+    "sw": [
+        {
+            "title": "Ulinganaji wa Viwango vya Riba vya Mikopo ya Magari kwa Benki Zote",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "State Bank of India",
+                    "rate": "Kuanzia 8.75% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,596"
+                },
+                {
+                    "bname": "Indian Overseas Bank",
+                    "rate": "Kuanzia 8.85% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,601"
+                },
+                {
+                    "bname": "Jammu Kashmir Bank",
+                    "rate": "RLLR + 0.75% p.a. kuanzia, RLLR + 0.25% p.a. kuanzia",
+                    "emiPerLac": "Wasiliana na benki"
+                },
+                {
+                    "bname": "Canara Bank",
+                    "rate": "Kuanzia 8.95% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,594"
+                },
+                {
+                    "bname": "HDFC Bank",
+                    "rate": "Kuanzia 8.75% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,608"
+                },
+                {
+                    "bname": "ICICI Bank",
+                    "rate": "Kuanzia 9.10% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,614"
+                },
+                {
+                    "bname": "Karur Vysya Bank",
+                    "rate": "Kuanzia 9.55% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,637"
+                },
+                {
+                    "bname": "South Indian Bank",
+                    "rate": "Imara: Kuanzia 8.75% p.a., Inayotembea: Kuanzia 9.27% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,596, Kuanzia ₹1,623"
+                },
+                {
+                    "bname": "IDBI Bank",
+                    "rate": "Kuanzia 8.80% p.a., Kuanzia 8.80% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,599"
+                },
+                {
+                    "bname": "Yes Bank",
+                    "rate": "Wasiliana na benki",
+                    "emiPerLac": "Wasiliana na benki"
+                },
+                {
+                    "bname": "Karnataka Bank",
+                    "rate": "Kuanzia 8.88% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,611"
+                },
+                {
+                    "bname": "Federal Bank of India",
+                    "rate": "Kuanzia 8.85% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,601"
+                },
+                {
+                    "bname": "Tamilnad Mercantile Bank",
+                    "rate": "Kuanzia 10.70% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,697"
+                },
+                {
+                    "bname": "Punjab National Bank",
+                    "rate": "Inayotembea: Kuanzia 8.75% p.a., Imara: Kuanzia 9.75% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,596, Kuanzia ₹1,647"
+                },
+                {
+                    "bname": "Union Bank of India",
+                    "rate": "Kuanzia 8.70% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,594"
+                },
+                {
+                    "bname": "Axis Bank",
+                    "rate": "Kuanzia 9.25% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,619"
+                },
+                {
+                    "bname": "Bank of Baroda",
+                    "rate": "Imara: Kuanzia 8.80% p.a., Inayotembea: Kuanzia 8.80% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,599"
+                },
+                {
+                    "bname": "Bank of India",
+                    "rate": "Kuanzia 8.75% p.a.",
+                    "emiPerLac": "Kuanzia ₹1,596"
+                }
+            ]
+        },
+        {
+            "title": "Aina za Viwango vya Ribani vya Mikopo ya Magari - Pumipiri na Kuteleza",
+            "description": "Viwango vya riba vya mikopo ya magari vinaweza kuwa vya kudumu au kuteleza. Kiwango cha riba kilichobaki kinahusu kiwango ambacho kinaendelea kuwa sawa kwa muda wote wa mkopo. Mambo kama mabadiliko katika soko hazina athari kwa viwango vya riba vya kudumu. Kwa upande mwingine, kiwango cha riba kuteleza ni aina ya kiwango ambacho kinaendelea kurekebishwa kulingana na mabadiliko katika mwelekeo wa soko la kifedha.",
+            "type": "table-diff",
+            "intRateDiff": [
+                {
+                    "fixedIntRate": "Kiwango cha riba ni kikubwa",
+                    "floatIntRate": "Kiwango cha riba ni kidogo"
+                },
+                {
+                    "fixedIntRate": "EMIs zitabaki sawa",
+                    "floatIntRate": "EMIs zitabadilika kulingana na mabadiliko ya MCLR"
+                },
+                {
+                    "fixedIntRate": "Inakuja na hatari ndogo",
+                    "floatIntRate": "Inakuja na hatari kubwa"
+                },
+                {
+                    "fixedIntRate": "Rahisi kuandaa bajeti na viwango hivi",
+                    "floatIntRate": "Ngumu kudumisha bajeti kwa sababu viwango vinabadilika"
+                },
+                {
+                    "fixedIntRate": "Inatoa usalama kwa wadeni",
+                    "floatIntRate": "Inatoa akiba kwa wadeni"
+                },
+                {
+                    "fixedIntRate": "Ni nzuri kwa kipindi kifupi cha mkopo (miaka 3 hadi 10)",
+                    "floatIntRate": "Ni nzuri kwa kipindi kirefu cha mkopo (miaka 20 hadi 30)"
+                }
+            ]
+        },
+        {
+            "title": "Viashiria Vinavyoathiri Viwango vya Ribani vya Mikopo ya Magari",
+            "type": "options",
+            "data": [
+                "Alama ya Mkopo",
+                "Muda wa Kulipa Mkopo",
+                "Kiasi cha Mkopo",
+                "Uhusiano na mkopeshaji",
+                "Kipato"
+            ]
+        }
+    ]
+}

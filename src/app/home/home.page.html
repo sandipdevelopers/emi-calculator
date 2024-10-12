@@ -1,0 +1,120 @@
+<ion-header class="box-shadow-none ion-no-border">
+  <ion-toolbar mode="md">
+    <ion-title class="">{{'EMI_Calculator' | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding">
+  <div class="main">
+    <ion-grid class="menu">
+      <label>{{'Loan_Type' | translate}}</label>
+      <ion-row>
+        <ion-col size="12">
+          <swiper-container [slidesPerView]="3.6" [loop]="false">
+            <swiper-slide>
+              <ion-card style="margin-right: 10px;" (click)="changeLoanType( 'Home Loan','8.5')"
+                class="ion-no-margin {{object.loanType == 'Home Loan' ?'active' :''}}">
+                <p>
+                  <ion-icon name="home"></ion-icon>
+                </p>
+                <h6 class="">{{'Home' | translate}}</h6>
+              </ion-card>
+            </swiper-slide>
+            <swiper-slide>
+              <ion-card (click)="changeLoanType('Personal Loan','10.5')"
+                class="ion-no-margin {{object.loanType == 'Personal Loan' ?'active' :''}}">
+                <p>
+                  <ion-icon name="person"></ion-icon>
+                </p>
+                <h6 class="">{{'Personal' | translate}}</h6>
+              </ion-card>
+            </swiper-slide>
+            <swiper-slide>
+              <ion-card (click)="changeLoanType('Car Loan' ,'7.5' )"
+                class="ion-no-margin  {{object.loanType == 'Car Loan' ?'active' :''}}">
+                <p>
+                  <ion-icon name="car-sport"></ion-icon>
+                </p>
+                <h6 class="">{{'Car' | translate}}</h6>
+              </ion-card>
+            </swiper-slide>
+            <swiper-slide>
+              <ion-card (click)="helper.navigate('/sip')" class="ion-no-margin">
+                <p>
+                  <ion-icon name="calculator-outline"></ion-icon>
+                </p>
+                <h6 class="">{{'SIP' | translate}}</h6>
+              </ion-card>
+            </swiper-slide>
+            <swiper-slide>
+              <ion-card (click)="helper.navigate('/gst-calc')" class="ion-no-margin">
+                <p>
+                  <ion-icon name="calendar-number-outline"></ion-icon>
+                </p>
+                <h6 class="">{{'GST' | translate}}</h6>
+              </ion-card>
+            </swiper-slide>
+          </swiper-container>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <div style="padding: 5px;">
+
+      <label for="loan_amount">{{(object.loanType + ' Amount') | translate}}</label>
+      <ion-input type="number" mode="md" id="loan_amount" [(ngModel)]="object.amount" name="loan_amount"
+        style="margin-bottom: 10px;" id="loan_amount" label="{{(object.loanType + ' Amount') | translate}}"
+        label-placement="floating" fill="outline"
+        placeholder="{{(object.loanType + ' Amount') | translate}}"></ion-input>
+
+      <!-- Loan Tenure  Input  -->
+      <div style="display: flex;justify-content: space-between;    align-items: center;">
+        <div>
+          <label style="margin-top: 5px;" for="loan_tenure">{{'Loan Tenure'| translate}}</label>
+          <ion-input type="number" mode="md" id="loan_tenure" [(ngModel)]="object.loan_tenure" name="loan_tenure"
+            style="margin-bottom: 10px;" id="loan_tenure" label="{{'Loan Tenure'  | translate}}"
+            label-placement="floating" fill="outline" placeholder="{{'Loan Tenure'  | translate}}"></ion-input>
+        </div>
+
+        <ion-segment mode="ios" [(ngModel)]="object.periodType">
+          <ion-segment-button value="year">
+            <ion-label>{{'Years' | translate}}</ion-label>
+          </ion-segment-button>
+          <ion-segment-button value="month">
+            <ion-label>{{'Month' |translate}}</ion-label>
+          </ion-segment-button>
+        </ion-segment>
+      </div>
+
+      <!-- Interest Rate -->
+      <label style="margin-top: 5px;" for="interest_rate">{{'Interest Rate'| translate}}</label>
+      <ion-input type="number" mode="md" id="interest_rate" [(ngModel)]="object.rate" name="loan_tenure"
+        style="margin-bottom: 10px;" id="interest_rate" label="{{'Interest Rate'  | translate}}"
+        label-placement="floating" fill="outline" placeholder="{{'Interest Rate'  | translate}}"></ion-input>
+    </div>
+    <div style="">
+      <ion-img (click)="checkRate()" src="/assets/image/loanbanner.jpg"
+        alt=""></ion-img>
+    </div>
+  </div>
+
+</ion-content>
+<ion-footer class="app-footer-class ion-no-border">
+  <div style="padding: 5px;">
+    <ion-button (click)="calc()" expand="block">{{'Calculate EMI' | translate}}</ion-button>
+  </div>
+</ion-footer>
+<ion-footer class="app-footer-class ion-no-border">
+  <ion-toolbar color="tertiary">
+    <ion-row class="ion-text-center">
+      <ion-col>
+        <ion-icon class="active" name="home-outline"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon (click)="helper.navigate('/history')" name="calendar-outline"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <ion-icon (click)="helper.navigate('/setting')" name="settings-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>

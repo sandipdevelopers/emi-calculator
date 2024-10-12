@@ -1,0 +1,1210 @@
+{
+    "en": [
+        {
+            "title": "Home Loan Interest Rates of Top Public Sector Banks",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "Bank of Baroda",
+                    "upt30l": "8.40% - 10.65%",
+                    "upt75l": "8.40% - 10.65%",
+                    "abv75l": "8.40% - 10.65%"
+                },
+                {
+                    "bname": "Punjab National Bank",
+                    "upt30l": "8.45% - 10.25%",
+                    "upt75l": "8.40% - 10.15%",
+                    "abv75l": "8.40% - 10.15%"
+                },
+                {
+                    "bname": "Punjab & Sind Bank",
+                    "upt30l": "8.50% - 10.00%",
+                    "upt75l": "8.50% - 10.00%",
+                    "abv75l": "8.50% - 10.00%"
+                },
+                {
+                    "bname": "SBI",
+                    "upt30l": "8.40% - 10.15%",
+                    "upt75l": "8.40% - 10.05%",
+                    "abv75l": "8.40% - 10.05%"
+                },
+                {
+                    "bname": "Union Bank of India",
+                    "upt30l": "8.35% - 10.75%",
+                    "upt75l": "8.35% - 10.90%",
+                    "abv75l": "8.35% - 10.90%"
+                },
+                {
+                    "bname": "Bank of India",
+                    "upt30l": "8.30% - 10.75%",
+                    "upt75l": "8.30% - 10.75%",
+                    "abv75l": "8.30% - 10.75%"
+                },
+                {
+                    "bname": "UCO Bank",
+                    "upt30l": "8.45% - 10.30%",
+                    "upt75l": "8.45% - 10.30%",
+                    "abv75l": "8.45% - 10.30%"
+                },
+                {
+                    "bname": "Bank of Maharashtra",
+                    "upt30l": "8.35% - 11.15%",
+                    "upt75l": "8.35% - 11.15%",
+                    "abv75l": "8.35% - 11.15%"
+                },
+                {
+                    "bname": "Canara Bank",
+                    "upt30l": "8.50% - 11.25%",
+                    "upt75l": "8.45% - 11.25%",
+                    "abv75l": "8.40% - 11.15%"
+                },
+                {
+                    "bname": "Indian Overseas Bank",
+                    "upt30l": "8.40% onwards",
+                    "upt75l": "8.40% onwards",
+                    "abv75l": "8.40% onwards"
+                }
+            ]
+        },
+        {
+            "title": "Home Loan Interest Rates of Top Private Sector Banks",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "HDFC Bank Ltd.",
+                    "upt30l": "8.50% onwards",
+                    "upt75l": "8.50% onwards",
+                    "abv75l": "8.50% onwards"
+                },
+                {
+                    "bname": "Kotak Mahindra Bank",
+                    "upt30l": "8.70% onwards",
+                    "upt75l": "8.70% onwards",
+                    "abv75l": "8.70% onwards"
+                },
+                {
+                    "bname": "ICICI Bank",
+                    "upt30l": "8.75% onwards",
+                    "upt75l": "8.75% onwards",
+                    "abv75l": "8.75% onwards"
+                },
+                {
+                    "bname": "Axis Bank",
+                    "upt30l": "8.75% - 13.30%",
+                    "upt75l": "8.75% - 13.30%",
+                    "abv75l": "8.75% - 9.65%"
+                },
+                {
+                    "bname": "Karur Vysya Bank",
+                    "upt30l": "9.00% - 11.05%",
+                    "upt75l": "9.00% - 11.05%",
+                    "abv75l": "9.00% - 11.05%"
+                },
+                {
+                    "bname": "South Indian Bank",
+                    "upt30l": "9.84% - 11.24%",
+                    "upt75l": "9.84% - 11.04%",
+                    "abv75l": "9.84% - 11.69%"
+                },
+                {
+                    "bname": "Karnataka Bank",
+                    "upt30l": "8.60% - 10.60%",
+                    "upt75l": "8.60% - 10.60%",
+                    "abv75l": "8.60% - 10.60%"
+                },
+                {
+                    "bname": "Federal Bank",
+                    "upt30l": "8.80% onwards",
+                    "upt75l": "8.80% onwards",
+                    "abv75l": "8.80% onwards"
+                },
+                {
+                    "bname": "Dhanlaxmi Bank",
+                    "upt30l": "9.35% - 10.50%",
+                    "upt75l": "9.35% - 10.50%",
+                    "abv75l": "9.35% - 10.50%"
+                },
+                {
+                    "bname": "Tamilnad Mercantile Bank",
+                    "upt30l": "8.60% - 9.95%",
+                    "upt75l": "8.60% - 9.95%",
+                    "abv75l": "8.60% - 9.95%"
+                },
+                {
+                    "bname": "Bandhan Bank",
+                    "upt30l": "9.16% - 15.00%",
+                    "upt75l": "9.16% - 13.33%",
+                    "abv75l": "9.16% - 13.33%"
+                },
+                {
+                    "bname": "RBL Bank",
+                    "upt30l": "8.90% onwards",
+                    "upt75l": "8.90% onwards",
+                    "abv75l": "8.90% onwards"
+                }
+            ]
+        },
+        {
+            "title": "Home Loan Interest Rates of Top Housing Finance Companies (HFCs)",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "LIC Housing Finance",
+                    "upt30l": "8.35% - 10.35%",
+                    "upt75l": "8.35% - 10.55%",
+                    "abv75l": "8.35% - 10.75%"
+                },
+                {
+                    "bname": "Tata Capital",
+                    "upt30l": "8.70% onwards",
+                    "upt75l": "8.70% onwards",
+                    "abv75l": "8.70% onwards"
+                },
+                {
+                    "bname": "Bajaj Housing Finance",
+                    "upt30l": "8.50% onwards",
+                    "upt75l": "8.50% onwards",
+                    "abv75l": "8.50% onwards"
+                },
+                {
+                    "bname": "PNB Housing Finance",
+                    "upt30l": "8.50% - 14.50%",
+                    "upt75l": "8.50% - 14.50%",
+                    "abv75l": "8.50% - 11.45%"
+                },
+                {
+                    "bname": "Repco Home Finance",
+                    "upt30l": "9.50% onwards",
+                    "upt75l": "9.50% onwards",
+                    "abv75l": "9.50% onwards"
+                },
+                {
+                    "bname": "GIC Housing Finance",
+                    "upt30l": "8.80% onwards",
+                    "upt75l": "8.80% onwards",
+                    "abv75l": "8.80% onwards"
+                },
+                {
+                    "bname": "Indiabulls Housing Finance",
+                    "upt30l": "8.75% onwards",
+                    "upt75l": "8.75% onwards",
+                    "abv75l": "8.75% onwards"
+                },
+                {
+                    "bname": "Aditya Birla Capital",
+                    "upt30l": "8.80% - 14.75%",
+                    "upt75l": "8.80% - 14.75%",
+                    "abv75l": "8.80% - 14.75%"
+                },
+                {
+                    "bname": "ICICI Home Finance",
+                    "upt30l": "9.20% onwards",
+                    "upt75l": "9.20% onwards",
+                    "abv75l": "9.20% onwards"
+                },
+                {
+                    "bname": "Godrej Housing Finance",
+                    "upt30l": "8.55% onwards",
+                    "upt75l": "8.55% onwards",
+                    "abv75l": "8.55% onwards"
+                },
+                {
+                    "bname": "L&T Finance Limited",
+                    "upt30l": "8.60% onwards",
+                    "upt75l": "8.60% onwards",
+                    "abv75l": "8.60% onwards"
+                }
+            ]
+        },
+        {
+            "title": "Home Loan Interest Rates of Leading Foreign Banks",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "HSBC",
+                    "upt30l": "8.45% onwards",
+                    "upt75l": "8.45% onwards",
+                    "abv75l": "8.45% onwards"
+                },
+                {
+                    "bname": "Standard Chartered Bank",
+                    "upt30l": "8.60% onwards",
+                    "upt75l": "8.60% onwards",
+                    "abv75l": "8.60% onwards"
+                }
+            ]
+        },
+        {
+            "title": "How to Calculate Interest on Home Loan?",
+            "type": "no-table",
+            "desc": "Individuals can calculate their home loan EMIs manually using the home loan EMI calculation formula, EMI = [P x R x (1+R)^N]/[(1+R)^N-1]. However, as manual calculations are time-consuming and more prone to errors, individuals can save their efforts and time by using Paisabazaar’s Home Loan EMI Calculator. The calculator is quick, accurate and convenient for anyone to use. It requires just a few loan details from users such as loan amount, interest rate and tenure to calculate home loan EMI along with total interest cost and total amount payable."
+        },
+        {
+            "title": "Types of Home Loan Interest Rates",
+            "desc": "Depending on the interest rate, a home loan is of three types, fixed-rate, floating rate and hybrid.",
+            "type": "option-with-des",
+            "data": [
+                {
+                    "title": "Fixed Rate Loans",
+                    "desc": "Fixed interest rate remains the same throughout the loan period, thereby, keeping the home loan EMI constant. Applying for a home loan at a fixed rate of interest is better when the current home loan rate of interest is quite low and an upward trend is anticipated in the future."
+                },
+                {
+                    "title": "Floating Rate Loans",
+                    "desc": "Floating interest rate, also known as the variable rate of interest, is subject to the current market lending rates; and thus, they may change during the loan tenure. The home loan EMIs will increase or decrease as per the interest rate movement."
+                },
+                {
+                    "title": "Hybrid Loans",
+                    "desc": "Hybrid rate home loans are a mix of fixed-rate and floating rate home loans. They will initially have a fixed interest rate for a set period, after which it will change into the floating rate of interest. Such housing loans are best suited for those who got the loan at a low fixed rate and plan to prepay or foreclose it before the floating rate starts."
+                }
+            ]
+        },
+        {
+            "title": "Factors Determining Your Home Loan Interest Rate",
+            "desc": "As home loans are usually high-ticket size loans, banks and HFCs do a careful and detailed assessment of the borrower’s credit history, repayment capacity, income along with stringent checks on the property to be purchased. For borrowers seeking a home loan, they must be aware of the factors that lenders look at while processing a housing loan application and have a deep awareness of their own eligibility. It needs to be noted that low-interest rates also usually come with stricter eligibility conditions. Here are the factors that lenders consider while determining your home loan eligibility and the interest rate to be offered:",
+            "type": "option-with-des",
+            "data": [
+                {
+                    "title": "Credit score",
+                    "desc": "Your credit score is a numerical representation of your credit history. Those who have paid their EMIs and credit card bills in full, timely, and have not been over-dependent on credit in the past are likely to have a good credit score. If your credit score from CIBIL and other bureaus is 750 and above, lenders would see you favorably for a home loan. Also, banks and HFCs are increasingly using the credit score of the home loan applicants to fix their housing loan interest rates. As a high credit score reflects responsible credit behaviour and financial discipline, many banks and HFCs offer home loans to applicants with higher credit scores at a lower interest rate. Those having no or low credit scores can improve their credit scores by availing lifetime free Step UP Credit Card, a secured credit card co-branded with SBM Bank India Ltd."
+                },
+                {
+                    "title": "Income and employment",
+                    "desc": "When evaluating your home loan eligibility, lenders also factor in your income, type of employment and the profile of your employer. Home loan applicants employed with government or PSUs or those working with large and/or reputed private sector organizations are usually preferred by lenders due to their higher job/income certainty. Hence, lenders offer lower home interest rates to such applicants. On the other hand, home loan applicants with irregular or insufficient income might find hard to get home loan at a lower interest rate."
+                },
+                {
+                    "title": "Loan amount",
+                    "desc": "The loan amount you seek to borrow can also influence the rate at which you get the housing loan. Home loans up to Rs. 30 lakh usually have a lower interest rate as compared to home loans of higher amounts. To get a lower rate of interest on your home loan, one should try and make the maximum down-payment possible. This will not just reduce the overall loan burden but may also help get a lower rate of interest on their loan."
+                },
+                {
+                    "title": "Type of home loan",
+                    "desc": "Home loan rate of interest also differs as per the types of home loan. Regular home loans have standard rates while their counterparts such as Plot Loan or NRI Home Loan usually have higher rate of interest."
+                },
+                {
+                    "title": "Interest rate concession for women home loan borrowers",
+                    "desc": "Some lenders provide home loan interest rate concession, usually of 0.05%, to women borrowers. Hence, it is advised that married couples should consider taking a joint home loan and make the wife the primary applicant if they can get a lower rate of interest. Availing joint home loan will also increase your home loan eligibility as well as home loan tax benefits."
+                },
+                {
+                    "title": "Type of interest rate",
+                    "desc": "The type of interest rate you choose for your home loan will determine the rate at which you will repay your lender. In the case of fixed-rate home loans, EMIs remain the same for the entire loan period. Floating rates, on the other hand, change as per change in its lending rate such as Repo Linked Lending Rate (RLLR). Lenders usually charge higher interest rates on home loans offered on fixed interest rates due to the higher interest rate risk involved with fixed-rate home loans."
+                }
+            ]
+        },
+        {
+            "title": "Tips to Reduce Home Loan Rate of Interest",
+            "desc": "Those planning to avail home loans can try availing it on lower interest rates by following the tips below:",
+            "type": "options",
+            "data": [
+                "Keep your credit score as high as possible, preferably at least 750",
+                "Apply for a joint home loan, preferably with a female member of the family as some lenders offer interest rate concession to female loan applicants.",
+                "Existing home loan borrowers can lower their home loan rates by transferring their outstanding balance to another lender offering lower interest rate",
+                "Many lenders set lower interest rates for applicants having lower LTV ratios. Thus, home loan applicants should make the maximum contribution possible towards home down payment so as to lower their loan amount, which thereby might help them get lower interest rates on their home loans."
+            ]
+        }
+    ],
+    "hi": [
+        {
+            "title": "शीर्ष सार्वजनिक क्षेत्र बैंकों की गृह ऋण ब्याज दरें",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "बैंक ऑफ बड़ौदा",
+                    "upt30l": "8.40% - 10.65%",
+                    "upt75l": "8.40% - 10.65%",
+                    "abv75l": "8.40% - 10.65%"
+                },
+                {
+                    "bname": "पंजाब नेशनल बैंक",
+                    "upt30l": "8.45% - 10.25%",
+                    "upt75l": "8.40% - 10.15%",
+                    "abv75l": "8.40% - 10.15%"
+                },
+                {
+                    "bname": "पंजाब और सिंध बैंक",
+                    "upt30l": "8.50% - 10.00%",
+                    "upt75l": "8.50% - 10.00%",
+                    "abv75l": "8.50% - 10.00%"
+                },
+                {
+                    "bname": "एसबीआई",
+                    "upt30l": "8.40% - 10.15%",
+                    "upt75l": "8.40% - 10.05%",
+                    "abv75l": "8.40% - 10.05%"
+                },
+                {
+                    "bname": "यूनियन बैंक ऑफ इंडिया",
+                    "upt30l": "8.35% - 10.75%",
+                    "upt75l": "8.35% - 10.90%",
+                    "abv75l": "8.35% - 10.90%"
+                },
+                {
+                    "bname": "बैंक ऑफ इंडिया",
+                    "upt30l": "8.30% - 10.75%",
+                    "upt75l": "8.30% - 10.75%",
+                    "abv75l": "8.30% - 10.75%"
+                },
+                {
+                    "bname": "यूसीओ बैंक",
+                    "upt30l": "8.45% - 10.30%",
+                    "upt75l": "8.45% - 10.30%",
+                    "abv75l": "8.45% - 10.30%"
+                },
+                {
+                    "bname": "बैंक ऑफ महाराष्ट्र",
+                    "upt30l": "8.35% - 11.15%",
+                    "upt75l": "8.35% - 11.15%",
+                    "abv75l": "8.35% - 11.15%"
+                },
+                {
+                    "bname": "केनरा बैंक",
+                    "upt30l": "8.50% - 11.25%",
+                    "upt75l": "8.45% - 11.25%",
+                    "abv75l": "8.40% - 11.15%"
+                },
+                {
+                    "bname": "इंडियन ओवरसीज बैंक",
+                    "upt30l": "8.40% से आगे",
+                    "upt75l": "8.40% से आगे",
+                    "abv75l": "8.40% से आगे"
+                }
+            ]
+        },
+        {
+            "title": "शीर्ष निजी क्षेत्र बैंकों की गृह ऋण ब्याज दरें",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "एचडीएफसी बैंक लिमिटेड",
+                    "upt30l": "8.50% से आगे",
+                    "upt75l": "8.50% से आगे",
+                    "abv75l": "8.50% से आगे"
+                },
+                {
+                    "bname": "कोटक महिंद्रा बैंक",
+                    "upt30l": "8.70% से आगे",
+                    "upt75l": "8.70% से आगे",
+                    "abv75l": "8.70% से आगे"
+                },
+                {
+                    "bname": "आईसीआईसीआई बैंक",
+                    "upt30l": "8.75% से आगे",
+                    "upt75l": "8.75% से आगे",
+                    "abv75l": "8.75% से आगे"
+                },
+                {
+                    "bname": "एक्सिस बैंक",
+                    "upt30l": "8.75% - 13.30%",
+                    "upt75l": "8.75% - 13.30%",
+                    "abv75l": "8.75% - 9.65%"
+                },
+                {
+                    "bname": "करुर वैश्य बैंक",
+                    "upt30l": "9.00% - 11.05%",
+                    "upt75l": "9.00% - 11.05%",
+                    "abv75l": "9.00% - 11.05%"
+                },
+                {
+                    "bname": "साउथ इंडियन बैंक",
+                    "upt30l": "9.84% - 11.24%",
+                    "upt75l": "9.84% - 11.04%",
+                    "abv75l": "9.84% - 11.69%"
+                },
+                {
+                    "bname": "कर्नाटक बैंक",
+                    "upt30l": "8.60% - 10.60%",
+                    "upt75l": "8.60% - 10.60%",
+                    "abv75l": "8.60% - 10.60%"
+                },
+                {
+                    "bname": "फेडरल बैंक",
+                    "upt30l": "8.80% से आगे",
+                    "upt75l": "8.80% से आगे",
+                    "abv75l": "8.80% से आगे"
+                },
+                {
+                    "bname": "धनलक्ष्मी बैंक",
+                    "upt30l": "9.35% - 10.50%",
+                    "upt75l": "9.35% - 10.50%",
+                    "abv75l": "9.35% - 10.50%"
+                },
+                {
+                    "bname": "तमिलनाड मर्चेंटाइल बैंक",
+                    "upt30l": "8.60% - 9.95%",
+                    "upt75l": "8.60% - 9.95%",
+                    "abv75l": "8.60% - 9.95%"
+                },
+                {
+                    "bname": "बंधन बैंक",
+                    "upt30l": "9.16% - 15.00%",
+                    "upt75l": "9.16% - 13.33%",
+                    "abv75l": "9.16% - 13.33%"
+                },
+                {
+                    "bname": "आरबीएल बैंक",
+                    "upt30l": "8.90% से आगे",
+                    "upt75l": "8.90% से आगे",
+                    "abv75l": "8.90% से आगे"
+                }
+            ]
+        },
+        {
+            "title": "शीर्ष हाउसिंग फाइनेंस कंपनियों (एचएफसी) की गृह ऋण ब्याज दरें",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "एलआईसी हाउसिंग फाइनेंस",
+                    "upt30l": "8.35% - 10.35%",
+                    "upt75l": "8.35% - 10.55%",
+                    "abv75l": "8.35% - 10.75%"
+                },
+                {
+                    "bname": "टाटा कैपिटल",
+                    "upt30l": "8.70% से आगे",
+                    "upt75l": "8.70% से आगे",
+                    "abv75l": "8.70% से आगे"
+                },
+                {
+                    "bname": "बजाज हाउसिंग फाइनेंस",
+                    "upt30l": "8.50% से आगे",
+                    "upt75l": "8.50% से आगे",
+                    "abv75l": "8.50% से आगे"
+                },
+                {
+                    "bname": "पीएनबी हाउसिंग फाइनेंस",
+                    "upt30l": "8.50% - 14.50%",
+                    "upt75l": "8.50% - 14.50%",
+                    "abv75l": "8.50% - 11.45%"
+                },
+                {
+                    "bname": "रेप्को होम फाइनेंस",
+                    "upt30l": "9.50% से आगे",
+                    "upt75l": "9.50% से आगे",
+                    "abv75l": "9.50% से आगे"
+                },
+                {
+                    "bname": "जीआईसी हाउसिंग फाइनेंस",
+                    "upt30l": "8.80% से आगे",
+                    "upt75l": "8.80% से आगे",
+                    "abv75l": "8.80% से आगे"
+                },
+                {
+                    "bname": "इंडियाबुल्स हाउसिंग फाइनेंस",
+                    "upt30l": "8.75% से आगे",
+                    "upt75l": "8.75% से आगे",
+                    "abv75l": "8.75% से आगे"
+                },
+                {
+                    "bname": "आदित्य बिरला कैपिटल",
+                    "upt30l": "8.80% - 14.75%",
+                    "upt75l": "8.80% - 14.75%",
+                    "abv75l": "8.80% - 14.75%"
+                },
+                {
+                    "bname": "आईसीआईसीआई होम फाइनेंस",
+                    "upt30l": "9.20% से आगे",
+                    "upt75l": "9.20% से आगे",
+                    "abv75l": "9.20% से आगे"
+                },
+                {
+                    "bname": "गोदरेज हाउसिंग फाइनेंस",
+                    "upt30l": "8.55% से आगे",
+                    "upt75l": "8.55% से आगे",
+                    "abv75l": "8.55% से आगे"
+                },
+                {
+                    "bname": "एलएंडटी फाइनेंस लिमिटेड",
+                    "upt30l": "8.60% से आगे",
+                    "upt75l": "8.60% से आगे",
+                    "abv75l": "8.60% से आगे"
+                }
+            ]
+        },
+        {
+            "title": "अग्रणी विदेशी बैंकों की गृह ऋण ब्याज दरें",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "एचएसबीसी",
+                    "upt30l": "8.45% से आगे",
+                    "upt75l": "8.45% से आगे",
+                    "abv75l": "8.45% से आगे"
+                },
+                {
+                    "bname": "स्टैंडर्ड चार्टर्ड बैंक",
+                    "upt30l": "8.60% से आगे",
+                    "upt75l": "8.60% से आगे",
+                    "abv75l": "8.60% से आगे"
+                }
+            ]
+        },
+        {
+            "title": "घर ऋण पर ब्याज कैसे गणना करें?",
+            "type": "no-table",
+            "desc": "व्यक्ति घर के ऋण की ईएमआई को मैन्युअल रूप से गणना कर सकते हैं, घर के ऋण ईएमआई गणना सूत्र का उपयोग करके,  EMI = [P x R x (1+R)^N]/[(1+R)^N-1] । हालांकि, मैन्युअल गणनाएँ समय लेती हैं और गलतियों के लिए अधिक प्रवृत्ति होती है, व्यक्ति पैसाबाजार के होम लोन ईएमआई कैलकुलेटर का उपयोग करके अपने प्रयास और समय बचा सकते हैं। कैलकुलेटर तेज, सटीक और किसी के भी उपयोग के लिए सुविधाजनक है। यह उपयोगकर्ताओं से कुछ ऋण विवरण जैसे कि ऋण राशि, ब्याज दर और कार्यकाल के बारे में मात्र की जानकारी मांगता है घर के ऋण ईएमआई की गणना करने के लिए साथ ही कुल ब्याज लागत और कुल राशि के साथ।"
+        },
+        {
+            "title": "घर ऋण ब्याज दरों के प्रकार",
+            "desc": "ब्याज दर के आधार पर, घर का ऋण तीन प्रकार का होता है, स्थायी दर, फ्लोटिंग दर और हाइब्रिड।",
+            "type": "option-with-des",
+            "data": [
+                {
+                    "title": "स्थायी दर ऋण",
+                    "desc": "स्थायी ब्याज दर ऋण की अवधि के दौरान समान रहती है, इसलिए, घर के ऋण की ईएमआई को स्थिर रखा जाता है। स्थायी ब्याज दर पर घर के ऋण के लिए आवेदन करना बेहतर होता है जब वर्तमान घर के ऋण ब्याज दर काफी कम है और भविष्य में ऊपरी दिशा की उम्मीद है।"
+                },
+                {
+                    "title": "फ्लोटिंग दर ऋण",
+                    "desc": "फ्लोटिंग ब्याज दर, जिसे चालू ब्याज दर के रूप में भी जाना जाता है, वर्तमान बाजार की ऋण दरों के अधीन होती है; और इसलिए, ये ऋण कार्यकाल के दौरान बदल सकते हैं। घर के ऋण की ईएमआई ब्याज दर के आंदोलन के अनुसार बढ़ेंगी या कम होंगी।"
+                },
+                {
+                    "title": "हाइब्रिड दर ऋण",
+                    "desc": "हाइब्रिड ब्याज दर घर के ऋण का मिश्रण होता है, स्थायी दर और फ्लोटिंग दर घर के ऋण। उन्हें शुरुआत में निर्धारित अवधि के लिए स्थायी ब्याज दर होती है, उसके बाद, यह फ्लोटिंग ब्याज दर में परिवर्तित हो जाती है। ऐसे हाउसिंग लोन उन लोगों के लिए सबसे उपयुक्त होते हैं जिन्होंने कम स्थिर दर पर ऋण प्राप्त किया है और फ्लोटिंग दर प्रारंभ होने से पहले इसे पूर्व-भुगतान या बंद करने का योजना बनाई है।"
+                }
+            ]
+        },
+        {
+            "title": "आपके घर के ऋण ब्याज दर को निर्धारित करने वाले कारक",
+            "desc": "जैसा कि घर के ऋण आमतौर पर बड़े राशि के ऋण होते हैं, बैंक और एचएफसी ऋण लेने वाले के क्रेडिट हिस्ट्री, अधिभारण क्षमता, आय के साथ-साथ खरीदने जा रहे संपत्ति पर कठिन और विस्तृत मूल्यांकन करते हैं। घर का ऋण चाहने वाले उन कारकों के बारे में जागरूक होना चाहिए जिन्हें ऋण आवेदन की प्रक्रिया को प्रोसेस करते समय ऋण दाता देखते हैं और अपनी योग्यता के गहरे जागरूक होना चाहिए। इसे ध्यान में रखना चाहिए कि कम ब्याज दर आमतौर पर सख्त योग्यता शर्तों के साथ भी आते हैं। निम्नलिखित हैं वे कारक जिन्हें ऋण दाता आपकी घर के ऋण की पात्रता और प्रस्तावित ब्याज दर को निर्धारित करने के दौरान ध्यान में रखते हैं:",
+            "type": "option-with-des",
+            "data": [
+                {
+                    "title": "क्रेडिट स्कोर",
+                    "desc": "आपका क्रेडिट स्कोर आपके क्रेडिट इतिहास का एक संख्यात्मक प्रतिनिधित्व है। जो लोग अपने ईएमआई और क्रेडिट कार्ड बिल को समय पर पूरा करते हैं, और पिछले में क्रेडिट पर अधिक निर्भर नहीं हुए हैं, उनके पास अच्छा क्रेडिट स्कोर होने की संभावना है। यदि आपका क्रेडिट स्कोर साइबिल और अन्य ब्यूरों से 750 और ऊपर है, तो ऋण दाता आपको घर के ऋण के लिए प्राथमिकता देगा। यह भी ध्यान देने योग्य है कि बैंक और एचएफसी घर के ऋण आवेदकों के क्रेडिट स्कोर का उपयोग करके उनकी होम लोन ब्याज दरों को समायोजित करने में बढ़ते जा रहे हैं। उच्च क्रेडिट स्कोर वाले आवेदकों को कम ब्याज दर पर घर के ऋण उपलब्ध कराने के लिए कई बैंक और एचएफसी हॉम लोन प्रदान करते हैं। जिनके पास कोई या कम क्रेडिट स्कोर है, वे अपने क्रेडिट स्कोर को बेहतर बना सकते हैं एक लाइफटाइम मुफ्त स्टेप अप क्रेडिट कार्ड का लाभ उठाकर, एक सुरक्षित क्रेडिट कार्ड जिसे एसबीएम बैंक इंडिया लिमिटेड के साथ सह-ब्रांडेड किया गया है,।"
+                },
+                {
+                    "title": "आय और रोजगार",
+                    "desc": "आपकी घर की ऋण पात्रता को मूल्यांकन करते समय, ऋण दाताओं आपकी आय, रोजगार के प्रकार और आपके कामधेनुता के प्रोफाइल का भी ध्यान रखते हैं। सरकारी या पीएसयूएस के साथ काम करने वाले घर के ऋण आवेदक या वे जो बड़े और/या प्रतिष्ठित निजी क्षेत्र के संगठनों के साथ काम करते हैं, ऐसे ऋण दाताओं द्वारा अधिक अच्छा रूप से पसंद किए जाते हैं क्योंकि उनकी अधिक नौकरी/आय संभावना होती है। इसलिए, इस प्रकार के आवेदकों को ऋण दाता नीचे घर के ब्याज दर प्रदान करते हैं। दूसरी ओर, अनियमित या पर्याप्त आय वाले घर के ऋण आवेदक को कम ब्याज दर पर घर के ऋण प्राप्त करना मुश्किल हो सकता है।"
+                },
+                {
+                    "title": "ऋण राशि",
+                    "desc": "जिस ऋण राशि को आप ऋण के लिए बोर्रो करना चाहते हैं, वह भी आपको आवास ऋण प्राप्त करने की दर पर प्रभाव डाल सकती है। 30 लाख रुपये तक के घर के ऋणों की आमतौर पर उच्च ब्याज दर होती है तुलनात्मक राशियों के घर के ऋणों के साथ। अपने घर के ऋण पर कम ब्याज दर प्राप्त करने के लिए, आपको जितना संभव हो सके, अधिकतम डाउन-पेमेंट करने की कोशिश करनी चाहिए। इससे केवल ऑवरऑल ऋण बोझ को कम किया जाएगा बल्कि उनके ऋण पर कम ब्याज दर प्राप्त करने में भी मदद मिल सकती है।"
+                },
+                {
+                    "title": "घर के ऋण के प्रकार",
+                    "desc": "घर के ऋण की ब्याज दर भी घर के ऋण के प्रकारों के अनुसार भिन्न होती है। सामान्य घर के ऋणों की मानक दर होती है जबकि उनके साथी जैसे प्लॉट लोन या एनआरआई होम लोन आमतौर पर अधिक ब्याज दर होती हैं।"
+                },
+                {
+                    "title": "महिला घर के ऋण ऋणार्थियों के लिए ब्याज दर छूट",
+                    "desc": "कुछ लेनदार महिला ऋण आवेदकों को आमतौर पर 0.05% की ब्याज दर छूट प्रदान करते हैं। इसलिए, सलाह दी जाती है कि शादीशुदा जोड़ों को यदि वे किसी कम ब्याज दर प्राप्त कर सकते हैं तो संयुक्त घर के ऋण को लेने का विचार करें और पत्नी को प्रमुख आवेदक बनाएं। संयुक्त घर के ऋण का लाभ आपकी घर के ऋण पात्रता को बढ़ा देगा साथ ही घर के ऋण कर कर लाभ भी।"
+                },
+                {
+                    "title": "ब्याज दर के प्रकार",
+                    "desc": "आपके घर के ऋण के लिए आपके द्वारा चुने गए ब्याज दर का प्रकार आपको उस दर पर ऋण चुकाने की दर तय करेगा। स्थिर ब्याज दर घर के ऋणों के लिए, ईएमआई पूरे ऋण काल के लिए समान रहते हैं। दूसरी ओर, फ्लोटिंग दरें, इसके ऋण की दर में परिवर्तन के अनुसार बदल जाती है जैसे की रेपो लिंक्ड लेंडिंग दर (आरएलएलआर)। सामान्यत: बैंक स्थिर ब्याज दर पर दी जाने वाली घर के ऋण पर अधिक ब्याज दर लेते हैं क्योंकि स्थिर दर वाले घर के ऋणों के साथ उच्च ब्याज दर का जोखिम होता है।"
+                }
+            ]
+        },
+        {
+            "title": "घर ऋण की ब्याज दर को कम करने के टिप्स",
+            "desc": "वे व्यक्ति जो घर के ऋण को प्राप्त करने की योजना बना रहे हैं, निम्नलिखित टिप्स का पालन करके अपने ब्याज दर को कम कर सकते हैं:",
+            "type": "options",
+            "data": [
+                "अपना क्रेडिट स्कोर ऊँचा रखें, बेहतर है कि कम से कम 750 हो।",
+                "कुछ ऋणदाता महिला आवेदकों को ब्याज दर में छूट प्रदान करते हैं, इसलिए एक संयुक्त घर का ऋण आवेदन करने का विचार करें, बेहतर है कि परिवार की किसी महिला के साथ।",
+                "मौजूदा घर के ऋण उधारदाताओं को अपनी शेष राशि को कम ब्याज दर प्रदान करने वाले एक अन्य उधारदाता के पास स्थानांतरित करके अपनी ऋण दरें कम कर सकते हैं।",
+                "बहुत से ऋणदाता कम ऋण-मूल्य अनुपात (LTV) अनुपात वाले आवेदकों के लिए कम ब्याज दर प्रदान करते हैं। इसलिए, आवेदकों को अपनी घर की डाउन पेमेंट के प्रति अधिक संभावित योगदान को कम करने के लिए अधिकतम संभावित योगदान करना चाहिए, जिससे कि उनके ऋण की राशि कम हो, जो उनके घर के ऋण पर कम ब्याज दर प्राप्त करने में सक्षम हो।"
+            ]
+        }
+    ],
+    "fil": [
+        {
+            "title": "Mga Kita ng Interes sa Pautang sa Bahay ng Mga Pangunahing Bangko ng Pampublikong Sektor",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "Bank of Baroda",
+                    "upt30l": "8.40% - 10.65%",
+                    "upt75l": "8.40% - 10.65%",
+                    "abv75l": "8.40% - 10.65%"
+                },
+                {
+                    "bname": "Punjab National Bank",
+                    "upt30l": "8.45% - 10.25%",
+                    "upt75l": "8.40% - 10.15%",
+                    "abv75l": "8.40% - 10.15%"
+                },
+                {
+                    "bname": "Punjab & Sind Bank",
+                    "upt30l": "8.50% - 10.00%",
+                    "upt75l": "8.50% - 10.00%",
+                    "abv75l": "8.50% - 10.00%"
+                },
+                {
+                    "bname": "SBI",
+                    "upt30l": "8.40% - 10.15%",
+                    "upt75l": "8.40% - 10.05%",
+                    "abv75l": "8.40% - 10.05%"
+                },
+                {
+                    "bname": "Union Bank of India",
+                    "upt30l": "8.35% - 10.75%",
+                    "upt75l": "8.35% - 10.90%",
+                    "abv75l": "8.35% - 10.90%"
+                },
+                {
+                    "bname": "Bank of India",
+                    "upt30l": "8.30% - 10.75%",
+                    "upt75l": "8.30% - 10.75%",
+                    "abv75l": "8.30% - 10.75%"
+                },
+                {
+                    "bname": "UCO Bank",
+                    "upt30l": "8.45% - 10.30%",
+                    "upt75l": "8.45% - 10.30%",
+                    "abv75l": "8.45% - 10.30%"
+                },
+                {
+                    "bname": "Bank of Maharashtra",
+                    "upt30l": "8.35% - 11.15%",
+                    "upt75l": "8.35% - 11.15%",
+                    "abv75l": "8.35% - 11.15%"
+                },
+                {
+                    "bname": "Canara Bank",
+                    "upt30l": "8.50% - 11.25%",
+                    "upt75l": "8.45% - 11.25%",
+                    "abv75l": "8.40% - 11.15%"
+                },
+                {
+                    "bname": "Indian Overseas Bank",
+                    "upt30l": "8.40% onwards",
+                    "upt75l": "8.40% onwards",
+                    "abv75l": "8.40% onwards"
+                }
+            ]
+        },
+        {
+            "title": "Mga Kita ng Interes sa Pautang sa Bahay ng Mga Pangunahing Bangko ng Pribadong Sektor",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "HDFC Bank Ltd.",
+                    "upt30l": "8.50% onwards",
+                    "upt75l": "8.50% onwards",
+                    "abv75l": "8.50% onwards"
+                },
+                {
+                    "bname": "Kotak Mahindra Bank",
+                    "upt30l": "8.70% onwards",
+                    "upt75l": "8.70% onwards",
+                    "abv75l": "8.70% onwards"
+                },
+                {
+                    "bname": "ICICI Bank",
+                    "upt30l": "8.75% onwards",
+                    "upt75l": "8.75% onwards",
+                    "abv75l": "8.75% onwards"
+                },
+                {
+                    "bname": "Axis Bank",
+                    "upt30l": "8.75% - 13.30%",
+                    "upt75l": "8.75% - 13.30%",
+                    "abv75l": "8.75% - 9.65%"
+                },
+                {
+                    "bname": "Karur Vysya Bank",
+                    "upt30l": "9.00% - 11.05%",
+                    "upt75l": "9.00% - 11.05%",
+                    "abv75l": "9.00% - 11.05%"
+                },
+                {
+                    "bname": "South Indian Bank",
+                    "upt30l": "9.84% - 11.24%",
+                    "upt75l": "9.84% - 11.04%",
+                    "abv75l": "9.84% - 11.69%"
+                },
+                {
+                    "bname": "Karnataka Bank",
+                    "upt30l": "8.60% - 10.60%",
+                    "upt75l": "8.60% - 10.60%",
+                    "abv75l": "8.60% - 10.60%"
+                },
+                {
+                    "bname": "Federal Bank",
+                    "upt30l": "8.80% onwards",
+                    "upt75l": "8.80% onwards",
+                    "abv75l": "8.80% onwards"
+                },
+                {
+                    "bname": "Dhanlaxmi Bank",
+                    "upt30l": "9.35% - 10.50%",
+                    "upt75l": "9.35% - 10.50%",
+                    "abv75l": "9.35% - 10.50%"
+                },
+                {
+                    "bname": "Tamilnad Mercantile Bank",
+                    "upt30l": "8.60% - 9.95%",
+                    "upt75l": "8.60% - 9.95%",
+                    "abv75l": "8.60% - 9.95%"
+                },
+                {
+                    "bname": "Bandhan Bank",
+                    "upt30l": "9.16% - 15.00%",
+                    "upt75l": "9.16% - 13.33%",
+                    "abv75l": "9.16% - 13.33%"
+                },
+                {
+                    "bname": "RBL Bank",
+                    "upt30l": "8.90% onwards",
+                    "upt75l": "8.90% onwards",
+                    "abv75l": "8.90% onwards"
+                }
+            ]
+        },
+        {
+            "title": "Mga Kita ng Interes sa Pautang sa Bahay ng mga Pangunahing Kompanya ng Pananalapi sa Pabahay (HFCs)",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "LIC Housing Finance",
+                    "upt30l": "8.35% - 10.35%",
+                    "upt75l": "8.35% - 10.55%",
+                    "abv75l": "8.35% - 10.75%"
+                },
+                {
+                    "bname": "Tata Capital",
+                    "upt30l": "8.70% onwards",
+                    "upt75l": "8.70% onwards",
+                    "abv75l": "8.70% onwards"
+                },
+                {
+                    "bname": "Bajaj Housing Finance",
+                    "upt30l": "8.50% onwards",
+                    "upt75l": "8.50% onwards",
+                    "abv75l": "8.50% onwards"
+                },
+                {
+                    "bname": "PNB Housing Finance",
+                    "upt30l": "8.50% - 14.50%",
+                    "upt75l": "8.50% - 14.50%",
+                    "abv75l": "8.50% - 11.45%"
+                },
+                {
+                    "bname": "Repco Home Finance",
+                    "upt30l": "9.50% onwards",
+                    "upt75l": "9.50% onwards",
+                    "abv75l": "9.50% onwards"
+                },
+                {
+                    "bname": "GIC Housing Finance",
+                    "upt30l": "8.80% onwards",
+                    "upt75l": "8.80% onwards",
+                    "abv75l": "8.80% onwards"
+                },
+                {
+                    "bname": "Indiabulls Housing Finance",
+                    "upt30l": "8.75% onwards",
+                    "upt75l": "8.75% onwards",
+                    "abv75l": "8.75% onwards"
+                },
+                {
+                    "bname": "Aditya Birla Capital",
+                    "upt30l": "8.80% - 14.75%",
+                    "upt75l": "8.80% - 14.75%",
+                    "abv75l": "8.80% - 14.75%"
+                },
+                {
+                    "bname": "ICICI Home Finance",
+                    "upt30l": "9.20% onwards",
+                    "upt75l": "9.20% onwards",
+                    "abv75l": "9.20% onwards"
+                },
+                {
+                    "bname": "Godrej Housing Finance",
+                    "upt30l": "8.55% onwards",
+                    "upt75l": "8.55% onwards",
+                    "abv75l": "8.55% onwards"
+                },
+                {
+                    "bname": "L&T Finance Limited",
+                    "upt30l": "8.60% onwards",
+                    "upt75l": "8.60% onwards",
+                    "abv75l": "8.60% onwards"
+                }
+            ]
+        },
+        {
+            "title": "Mga Kita ng Interes sa Pautang sa Bahay ng mga Pangunahing Dayuhang Bangko",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "HSBC",
+                    "upt30l": "8.45% onwards",
+                    "upt75l": "8.45% onwards",
+                    "abv75l": "8.45% onwards"
+                },
+                {
+                    "bname": "Standard Chartered Bank",
+                    "upt30l": "8.60% onwards",
+                    "upt75l": "8.60% onwards",
+                    "abv75l": "8.60% onwards"
+                }
+            ]
+        },
+        {
+            "title": "Paano Kalkulahin ang Interes sa Home Loan?",
+            "type": "no-table",
+            "desc": "Maaaring kalkulahin ng mga indibidwal ang kanilang home loan EMIs nang manu-mano gamit ang formula ng pagkalkula ng home loan EMI, EMI = [P x R x (1+R)^N]/[(1+R)^N-1]. Gayunpaman, dahil ang mga manual na pagkalkula ay nakakatagal at mas madaling magkamali, maaaring makatipid ng oras at pagsisikap ang mga indibidwal sa pamamagitan ng paggamit ng Paisabazaar’s Home Loan EMI Calculator. Ang kalkulator ay mabilis, tumpak at kumportable para sa sinumang gumamit. Kailangan lamang ng ilang detalye ng loan mula sa mga gumagamit tulad ng halaga ng loan, interes rate at tenure upang kalkuluin ang home loan EMI kasama ang kabuuang gastos sa interes at kabuuang halaga na dapat bayaran."
+        },
+        {
+            "title": "Uri ng Mga Interes sa Home Loan",
+            "desc": "Depende sa interes rate, may tatlong uri ng home loan, fixed-rate, floating rate, at hybrid.",
+            "type": "option-with-des",
+            "data": [
+                {
+                    "title": "Fixed Rate Loans",
+                    "desc": "Ang fixed interest rate ay nananatiling pareho sa buong panahon ng loan, kaya't nananatiling pareho ang home loan EMI. Mas mabuti ang mag-aplay para sa home loan sa isang fixed rate ng interes kapag ang kasalukuyang rate ng interes sa home loan ay medyo mababa at inaasahan ang isang pataas na trend sa hinaharap."
+                },
+                {
+                    "title": "Floating Rate Loans",
+                    "desc": "Ang floating interest rate, na kilala rin bilang variable rate of interest, ay nasasailalim sa kasalukuyang mga lending rate ng merkado; at samakatuwid, maaaring magbago ang mga ito sa panahon ng tenure ng loan. Ang home loan EMIs ay magiging mas mataas o mas mababa ayon sa paggalaw ng rate ng interes."
+                },
+                {
+                    "title": "Hybrid Loans",
+                    "desc": "Ang hybrid rate home loans ay isang halo ng fixed-rate at floating rate home loans. Sa simula, mayroon silang fixed interest rate para sa isang tinukoy na panahon, pagkatapos ay magiging floating rate of interest. Ang mga housing loan na ito ay pinakamabuti para sa mga taong nakakuha ng loan sa isang mababang fixed rate at plano na prepay o foreclose ito bago magsimula ang floating rate."
+                }
+            ]
+        },
+        {
+            "title": "Mga Salik na Nagtatakda ng Iyong Interes sa Home Loan",
+            "desc": "Dahil karaniwang mataas ang laki ng home loans, sinasaliksik at pinaghahandaan ng mga bangko at HFCs (Housing Finance Companies) ang credit history, kakayahan sa pagbabayad, kita kasama ang mahigpit na pagsusuri sa ari-arian na bibilhin. Para sa mga naghahanap ng home loan, dapat silang magkaroon ng kamalayan sa mga salik na tinitingnan ng mga lender habang inaaprubahan ang aplikasyon para sa housing loan at mayroon ding malalim na kamalayan sa kanilang sariling kwalipikasyon. Kailangang tandaan na ang mga mababang interes rate ay karaniwang may mga mas mahigpit na kondisyon sa pagiging eligible. Narito ang mga salik na tinitingnan ng mga lender habang tinutukoy ang iyong eligibility para sa home loan at ang interes rate na iaalok:",
+            "type": "option-with-des",
+            "data": [
+                {
+                    "title": "Credit score",
+                    "desc": "Ang iyong credit score ay isang numerikal na representasyon ng iyong credit history. Ang mga taong nagbayad ng kanilang EMIs at credit card bills sa buo, sa tamang panahon, at hindi masyadong umaasa sa credit sa nakaraan ay malamang na may magandang credit score. Kung ang iyong credit score mula sa CIBIL at iba pang bureaus ay 750 pataas, titingnan ka ng mga lender nang pabor sa isang home loan. Bukod dito, ang mga bangko at HFCs ay lalong gumagamit ng credit score ng mga aplikante ng home loan upang itakda ang kanilang housing loan interest rates. Dahil ang mataas na credit score ay nagpapakita ng responsable na pag-uugali sa credit at disiplina sa pinansya, maraming bangko at HFCs ang nag-aalok ng home loans sa mga aplikante na may mas mataas na credit scores sa mas mababang interes rate. Ang mga walang o mababang credit scores ay maaaring mapabuti ang kanilang credit scores sa pamamagitan ng pagkuha ng lifetime free Step UP Credit Card, isang secured credit card na co-branded sa SBM Bank India Ltd."
+                },
+                {
+                    "title": "Kita at trabaho",
+                    "desc": "Kapag sinusuri ang iyong eligibility para sa home loan, kinikilala rin ng mga lender ang iyong kita, uri ng trabaho at ang profile ng iyong employer. Karaniwang pinipili ng mga lender ang mga aplikante ng home loan na may trabaho sa pamahalaan o PSUs o yaong mga nagtatrabaho sa malalaking at/o kilalang pribadong sektor na mga organisasyon dahil sa mas mataas na siguridad sa trabaho/kita. Kaya naman, nag-aalok ng mas mababang interes sa home ang mga lender sa mga aplikanteng ito. Sa kabilang banda, ang mga aplikante ng home loan na may hindi regular o hindi sapat na kita ay maaaring mahirapang makakuha ng home loan sa mas mababang interes rate."
+                },
+                {
+                    "title": "Halaga ng loan",
+                    "desc": "Ang halaga ng loan na iyong hinihingi ay maaaring makaapekto sa rate kung saan makakakuha ka ng housing loan. Karaniwang may mas mababang interes rate ang mga home loan hanggang sa Rs. 30 lakh kumpara sa mas mataas na halaga ng home loans. Upang makakuha ng mas mababang rate ng interes sa iyong home loan, dapat subukan mong gawin ang pinakamalaking down-payment na posible. Ito ay hindi lamang magpapababa sa kabuuang pasan ng loan kundi maaari ring makatulong na makakuha ng mas mababang rate ng interes sa kanilang loan."
+                },
+                {
+                    "title": "Uri ng home loan",
+                    "desc": "Ang rate ng home loan ay nag-iiba rin depende sa uri ng home loan. Mayroong standard rates ang regular home loans samantalang ang mga katapat nito tulad ng Plot Loan o NRI Home Loan ay karaniwang may mas mataas na rate ng interes."
+                },
+                {
+                    "title": "Pakikipagkasundo sa interes rate para sa mga babaeng home loan borrowers",
+                    "desc": "May mga lender na nagbibigay ng diskwento sa rate ng interes sa home loan, karaniwang 0.05%, sa mga babaeng borrower ng home loan. Kaya't inirerekomenda na dapat isaalang-alang ng mga kasal na kumuha ng joint home loan at gawing pangunahing aplikante ang asawang babae kung maaari silang makakuha ng mas mababang rate ng interes. Ang pagkuha ng joint home loan ay magpapataas din sa iyong eligibility sa home loan pati na rin ang mga benepisyo sa buwis ng home loan."
+                },
+                {
+                    "title": "Uri ng rate ng interes",
+                    "desc": "Ang uri ng rate ng interes na pipiliin mo para sa iyong home loan ay magtatakda sa rate kung paano mo babayaran ang iyong lender. Sa kaso ng fixed-rate home loans, nananatiling pareho ang mga EMIs sa buong panahon ng loan. Ang floating rates naman ay nagbabago ayon sa pagbabago sa kanilang lending rate tulad ng Repo Linked Lending Rate (RLLR). Karaniwang mas mataas ang interes rate na iniaalok ng mga lender sa home loans na inaalok sa fixed interest rates dahil sa mas mataas na panganib sa interes rate na nauugnay sa fixed-rate home loans."
+                }
+            ]
+        },
+        {
+            "title": "Mga Tip para Mabawasan ang Rate ng Interes sa Home Loan",
+            "desc": "Ang mga nagbabalak kumuha ng home loans ay maaaring subukang kunin ito sa mas mababang interes rate sa pamamagitan ng sumusunod na mga tip:",
+            "type": "options",
+            "data": [
+                "Panatilihin ang iyong credit score sa pinakamataas na posibleng antas, lalo na sa hindi bababa sa 750",
+                "Mag-apply para sa isang joint home loan, lalo na kasama ang isang babae sa pamilya dahil nag-aalok ng diskwento sa rate ng interes ang ilang lenders sa mga babae na aplikante ng loan.",
+                "Ang mga kasalukuyang borrower ng home loan ay maaaring ibaba ang kanilang mga rate ng home loan sa pamamagitan ng paglipat ng kanilang natitirang balance sa ibang lender na nag-aalok ng mas mababang rate ng interes",
+                "Maraming lender ang nagtatakda ng mas mababang mga rate ng interes para sa mga aplikante na may mas mababang mga LTV ratio. Kaya't ang mga aplikante ng home loan ay dapat magbigay ng pinakamalaking kontribusyon na posible sa down payment ng bahay upang mabawasan ang halaga ng kanilang loan, na maaaring makatulong sa kanila na makakuha ng mas mababang mga rate ng interes sa kanilang home loans."
+            ]
+        }
+    ],
+    "sw": [
+        {
+            "title": "Viwango vya Riba ya Mkopo wa Nyumbani wa Benki za Sekta ya Umma za Juu",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "Bank of Baroda",
+                    "upt30l": "8.40% - 10.65%",
+                    "upt75l": "8.40% - 10.65%",
+                    "abv75l": "8.40% - 10.65%"
+                },
+                {
+                    "bname": "Punjab National Bank",
+                    "upt30l": "8.45% - 10.25%",
+                    "upt75l": "8.40% - 10.15%",
+                    "abv75l": "8.40% - 10.15%"
+                },
+                {
+                    "bname": "Punjab & Sind Bank",
+                    "upt30l": "8.50% - 10.00%",
+                    "upt75l": "8.50% - 10.00%",
+                    "abv75l": "8.50% - 10.00%"
+                },
+                {
+                    "bname": "SBI",
+                    "upt30l": "8.40% - 10.15%",
+                    "upt75l": "8.40% - 10.05%",
+                    "abv75l": "8.40% - 10.05%"
+                },
+                {
+                    "bname": "Union Bank of India",
+                    "upt30l": "8.35% - 10.75%",
+                    "upt75l": "8.35% - 10.90%",
+                    "abv75l": "8.35% - 10.90%"
+                },
+                {
+                    "bname": "Bank of India",
+                    "upt30l": "8.30% - 10.75%",
+                    "upt75l": "8.30% - 10.75%",
+                    "abv75l": "8.30% - 10.75%"
+                },
+                {
+                    "bname": "UCO Bank",
+                    "upt30l": "8.45% - 10.30%",
+                    "upt75l": "8.45% - 10.30%",
+                    "abv75l": "8.45% - 10.30%"
+                },
+                {
+                    "bname": "Bank of Maharashtra",
+                    "upt30l": "8.35% - 11.15%",
+                    "upt75l": "8.35% - 11.15%",
+                    "abv75l": "8.35% - 11.15%"
+                },
+                {
+                    "bname": "Canara Bank",
+                    "upt30l": "8.50% - 11.25%",
+                    "upt75l": "8.45% - 11.25%",
+                    "abv75l": "8.40% - 11.15%"
+                },
+                {
+                    "bname": "Indian Overseas Bank",
+                    "upt30l": "8.40% kutoka",
+                    "upt75l": "8.40% kutoka",
+                    "abv75l": "8.40% kutoka"
+                }
+            ]
+        },
+        {
+            "title": "Viwango vya Riba ya Mikopo ya Nyumbani ya Benki za Sekta Binafsi Bora",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "HDFC Bank Ltd.",
+                    "upt30l": "Kuanzia 8.50%",
+                    "upt75l": "Kuanzia 8.50%",
+                    "abv75l": "Kuanzia 8.50%"
+                },
+                {
+                    "bname": "Kotak Mahindra Bank",
+                    "upt30l": "Kuanzia 8.70%",
+                    "upt75l": "Kuanzia 8.70%",
+                    "abv75l": "Kuanzia 8.70%"
+                },
+                {
+                    "bname": "ICICI Bank",
+                    "upt30l": "Kuanzia 8.75%",
+                    "upt75l": "Kuanzia 8.75%",
+                    "abv75l": "Kuanzia 8.75%"
+                },
+                {
+                    "bname": "Axis Bank",
+                    "upt30l": "Kuanzia 8.75% - 13.30%",
+                    "upt75l": "Kuanzia 8.75% - 13.30%",
+                    "abv75l": "Kuanzia 8.75% - 9.65%"
+                },
+                {
+                    "bname": "Karur Vysya Bank",
+                    "upt30l": "9.00% - 11.05%",
+                    "upt75l": "9.00% - 11.05%",
+                    "abv75l": "9.00% - 11.05%"
+                },
+                {
+                    "bname": "South Indian Bank",
+                    "upt30l": "9.84% - 11.24%",
+                    "upt75l": "9.84% - 11.04%",
+                    "abv75l": "9.84% - 11.69%"
+                },
+                {
+                    "bname": "Karnataka Bank",
+                    "upt30l": "8.60% - 10.60%",
+                    "upt75l": "8.60% - 10.60%",
+                    "abv75l": "8.60% - 10.60%"
+                },
+                {
+                    "bname": "Federal Bank",
+                    "upt30l": "Kuanzia 8.80%",
+                    "upt75l": "Kuanzia 8.80%",
+                    "abv75l": "Kuanzia 8.80%"
+                },
+                {
+                    "bname": "Dhanlaxmi Bank",
+                    "upt30l": "9.35% - 10.50%",
+                    "upt75l": "9.35% - 10.50%",
+                    "abv75l": "9.35% - 10.50%"
+                },
+                {
+                    "bname": "Tamilnad Mercantile Bank",
+                    "upt30l": "8.60% - 9.95%",
+                    "upt75l": "8.60% - 9.95%",
+                    "abv75l": "8.60% - 9.95%"
+                },
+                {
+                    "bname": "Bandhan Bank",
+                    "upt30l": "9.16% - 15.00%",
+                    "upt75l": "9.16% - 13.33%",
+                    "abv75l": "9.16% - 13.33%"
+                },
+                {
+                    "bname": "RBL Bank",
+                    "upt30l": "Kuanzia 8.90%",
+                    "upt75l": "Kuanzia 8.90%",
+                    "abv75l": "Kuanzia 8.90%"
+                }
+            ]
+        },
+        {
+            "title": "Viwango vya Riba ya Mikopo ya Nyumbani ya Kampuni za Fedha za Nyumba Bora (HFCs)",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "LIC Housing Finance",
+                    "upt30l": "8.35% - 10.35%",
+                    "upt75l": "8.35% - 10.55%",
+                    "abv75l": "8.35% - 10.75%"
+                },
+                {
+                    "bname": "Tata Capital",
+                    "upt30l": "Kuanzia 8.70%",
+                    "upt75l": "Kuanzia 8.70%",
+                    "abv75l": "Kuanzia 8.70%"
+                },
+                {
+                    "bname": "Bajaj Housing Finance",
+                    "upt30l": "Kuanzia 8.50%",
+                    "upt75l": "Kuanzia 8.50%",
+                    "abv75l": "Kuanzia 8.50%"
+                },
+                {
+                    "bname": "PNB Housing Finance",
+                    "upt30l": "8.50% - 14.50%",
+                    "upt75l": "8.50% - 14.50%",
+                    "abv75l": "8.50% - 11.45%"
+                },
+                {
+                    "bname": "Repco Home Finance",
+                    "upt30l": "Kuanzia 9.50%",
+                    "upt75l": "Kuanzia 9.50%",
+                    "abv75l": "Kuanzia 9.50%"
+                },
+                {
+                    "bname": "GIC Housing Finance",
+                    "upt30l": "Kuanzia 8.80%",
+                    "upt75l": "Kuanzia 8.80%",
+                    "abv75l": "Kuanzia 8.80%"
+                },
+                {
+                    "bname": "Indiabulls Housing Finance",
+                    "upt30l": "Kuanzia 8.75%",
+                    "upt75l": "Kuanzia 8.75%",
+                    "abv75l": "Kuanzia 8.75%"
+                },
+                {
+                    "bname": "Aditya Birla Capital",
+                    "upt30l": "8.80% - 14.75%",
+                    "upt75l": "8.80% - 14.75%",
+                    "abv75l": "8.80% - 14.75%"
+                },
+                {
+                    "bname": "ICICI Home Finance",
+                    "upt30l": "Kuanzia 9.20%",
+                    "upt75l": "Kuanzia 9.20%",
+                    "abv75l": "Kuanzia 9.20%"
+                },
+                {
+                    "bname": "Godrej Housing Finance",
+                    "upt30l": "Kuanzia 8.55%",
+                    "upt75l": "Kuanzia 8.55%",
+                    "abv75l": "Kuanzia 8.55%"
+                },
+                {
+                    "bname": "L&T Finance Limited",
+                    "upt30l": "Kuanzia 8.60%",
+                    "upt75l": "Kuanzia 8.60%",
+                    "abv75l": "Kuanzia 8.60%"
+                }
+            ]
+        },
+        {
+            "title": "Viwango vya Riba ya Mikopo ya Nyumbani ya Benki za Kigeni Zinazoongoza",
+            "type": "table",
+            "data": [
+                {
+                    "bname": "HSBC",
+                    "upt30l": "Kuanzia 8.45%",
+                    "upt75l": "Kuanzia 8.45%",
+                    "abv75l": "Kuanzia 8.45%"
+                },
+                {
+                    "bname": "Standard Chartered Bank",
+                    "upt30l": "Kuanzia 8.60%",
+                    "upt75l": "Kuanzia 8.60%",
+                    "abv75l": "Kuanzia 8.60%"
+                }
+            ]
+        },
+        {
+            "title": "Jinsi ya Kuhesabu Riba kwenye Mkopo wa Nyumba?",
+            "type": "no-table",
+            "desc": "Watu binafsi wanaweza kuhesabu malipo yao ya kila mwezi ya mkopo wa nyumba kwa mkono kwa kutumia fomula ya kuhesabu malipo ya mkopo wa nyumba, EMI = [P x R x (1+R)^N]/[(1+R)^N-1]. Hata hivyo, kwa kuwa hesabu za mkono zinachukua muda mrefu na zina hatari kubwa ya makosa, watu binafsi wanaweza kuokoa juhudi na muda wao kwa kutumia Kikokotoo cha EMI ya Mkopo wa Nyumba ya Paisabazaar. Kikokotoo hicho ni cha haraka, sahihi na rahisi kwa mtu yeyote kutumia. Kinahitaji maelezo machache tu ya mkopo kutoka kwa watumiaji kama vile kiasi cha mkopo, kiwango cha riba na muda wa mkopo ili kuhesabu malipo ya mkopo wa nyumba pamoja na gharama jumla ya riba na jumla ya kiasi cha kulipwa."
+        },
+        {
+            "title": "Aina za Viwango vya Riba kwenye Mkopo wa Nyumba",
+            "desc": "Kulingana na kiwango cha riba, mkopo wa nyumba una aina tatu, kiwango kilichofungwa, kiwango kinachobadilika na mchanganyiko.",
+            "type": "option-with-des",
+            "data": [
+                {
+                    "title": "Mikopo yenye Kiwango Kilichofungwa",
+                    "desc": "Kiwango cha riba kilichofungwa kinabaki sawa kote kipindi cha mkopo, hivyo kuweka malipo ya kila mwezi ya mkopo wa nyumba kuwa thabiti. Kutumia mkopo wa nyumba kwa kiwango kilichofungwa ni bora pale ambapo kiwango cha riba cha mkopo wa nyumba kwa sasa ni cha chini na mwelekeo wa juu unatarajiwa baadaye."
+                },
+                {
+                    "title": "Mikopo yenye Kiwango Kinachobadilika",
+                    "desc": "Kiwango cha riba kinachobadilika, pia kinachojulikana kama kiwango cha riba kinachoweza kubadilika, kinafanyiwa mabadiliko kulingana na viwango vya sasa vya kukopesha sokoni; na kwa hivyo, vinaweza kubadilika wakati wa muda wa mkopo. Malipo ya kila mwezi ya mkopo wa nyumba yataongezeka au kupungua kulingana na mabadiliko ya kiwango cha riba."
+                },
+                {
+                    "title": "Mikopo ya Mchanganyiko",
+                    "desc": "Mikopo ya nyumba yenye kiwango cha mchanganyiko ni mchanganyiko wa mikopo ya nyumba yenye kiwango kilichofungwa na kiwango kinachobadilika cha mkopo. Awali itakuwa na kiwango cha riba kilichofungwa kwa kipindi kilichowekwa, baada ya hapo itabadilika kuwa kiwango kinachobadilika cha riba. Mikopo ya nyumba kama hiyo ni bora kwa wale ambao wamepata mkopo kwa kiwango kilichofungwa cha chini na wanapanga kulipa kabla ya kiwango kinachobadilika kuanza."
+                }
+            ]
+        },
+        {
+            "title": "Viashiria Vinavyoamua Kiwango cha Riba cha Mkopo wako wa Nyumba",
+            "desc": "Kwa kuwa mikopo ya nyumba kwa kawaida ni mikopo ya ukubwa wa juu, benki na HFCs hufanya tathmini ya kina na ya kina ya historia ya mkopeshaji, uwezo wa kurudisha, mapato pamoja na ukaguzi mkali wa mali itakayonunuliwa. Kwa wakopaji wanaotafuta mkopo wa nyumba, ni lazima wawe na ufahamu wa viashiria ambavyo wakopeshaji wanazingatia wakati wa kusindika maombi ya mkopo wa nyumba na ufahamu wa kina wa uwezo wao wenyewe. Inapaswa kueleweka kwamba viwango vya riba vya chini kwa kawaida huja na masharti makali zaidi ya uhalali. Hapa kuna viashiria ambavyo wakopeshaji wanazingatia wakati wa kujua uhalali wa mkopo wako wa nyumba na kiwango cha riba kitakachotolewa:",
+            "type": "option-with-des",
+            "data": [
+                {
+                    "title": "Alama ya Mkopo",
+                    "desc": "Alama yako ya mkopo ni uwakilishi wa nambari wa historia yako ya mkopo. Wale ambao wamewalipa EMIs zao na ankara za kadi za mkopo kikamilifu, kwa wakati, na hawakutegemea sana mkopo hapo awali wanaweza kuwa na alama nzuri ya mkopo. Ikiwa alama yako ya mkopo kutoka CIBIL na taasisi nyingine ni 750 na zaidi, wakopeshaji wangekuona kwa wema kwa mkopo wa nyumba. Pia, benki na HFCs wanatumia sana alama ya mkopo ya waombaji wa mkopo wa nyumba kuweka viwango vya riba vya mkopo wa nyumba. Kama alama ya mkopo ya juu inaonyesha tabia ya mkopo inayowajibika na nidhamu ya kifedha, benki nyingi na HFCs hutoa mikopo ya nyumba kwa waombaji wenye alama za mkopo za juu kwa kiwango cha riba cha chini. Wale ambao hawana au wana alama za mkopo za chini wanaweza kuboresha alama zao za mkopo kwa kutumia kadi ya mkopo ya Step UP Credit Card ya maisha bila malipo, kadi ya mkopo iliyofichwa kwa ushirikiano na SBM Bank India Ltd."
+                },
+                {
+                    "title": "Mapato na Ajira",
+                    "desc": "Wakati wa kutathmini uhalali wako wa mkopo wa nyumba, wakopeshaji pia huchukua faida za mapato yako, aina ya ajira na maelezo ya mwajiri wako. Waombaji wa mkopo wa nyumba walioajiriwa na serikali au PSUs au wale wanaofanya kazi na mashirika makubwa na / au yenye sifa nzuri ya sekta binafsi kwa kawaida wanapendelewa na wakopeshaji kwa sababu ya uhakika wa kazi/mapato wao wa juu. Kwa hivyo, wakopeshaji hutoa viwango vya riba vya nyumba vya chini kwa waombaji kama hao. Kwa upande mwingine, waombaji wa mkopo wa nyumba na mapato yasiyotabirika au ya kutosha wanaweza kupata ugumu kupata mkopo wa nyumba kwa kiwango cha riba cha chini."
+                },
+                {
+                    "title": "Kiasi cha Mkopo",
+                    "desc": "Kiasi cha mkopo unachotaka kukopa pia kinaweza kuathiri kiwango ambacho unapata mkopo wa nyumba. Mikopo ya nyumba hadi Rs. 30 lakh kwa kawaida ina kiwango cha riba cha chini ikilinganishwa na mikopo ya nyumba ya kiasi kikubwa. Ili kupata kiwango cha riba cha chini kwenye mkopo wa nyumba, mtu anapaswa kujaribu na kufanya malipo ya chini ya chini iwezekanavyo. Hii haitapunguza tu mzigo wa jumla wa mkopo lakini inaweza pia kusaidia kupata kiwango cha riba cha chini kwenye mkopo wao."
+                },
+                {
+                    "title": "Aina ya Mkopo wa Nyumba",
+                    "desc": "Kiwango cha riba cha mkopo wa nyumba pia kinatofautiana kulingana na aina za mkopo wa nyumba. Mikopo ya nyumba ya kawaida ina viwango vya kawaida wakati washindani wao kama Mkopo wa Kiwanja au Mkopo wa Nyumba wa NRI kwa kawaida wanayo kiwango cha riba cha juu."
+                },
+                {
+                    "title": "Punguzo la kiwango cha riba kwa wakopaji wa nyumba wanawake",
+                    "desc": "Baadhi ya wakopeshaji hutoa punguzo la kiwango cha riba cha mkopo wa nyumba, kawaida la 0.05%, kwa wakopaji wanawake. Kwa hivyo, inashauriwa kwamba wanandoa wanaopaswa kufikiria kuchukua mkopo wa pamoja wa nyumba na kufanya mke kuwa mwombaji wa kwanza ikiwa wanaweza kupata kiwango cha riba cha chini. Kupata mkopo wa nyumba wa pamoja pia kunaweza kuongeza uhalali wako wa mkopo wa nyumba pamoja na faida za kodi ya mkopo wa nyumba."
+                },
+                {
+                    "title": "Aina ya kiwango cha riba",
+                    "desc": "Aina ya kiwango cha riba unachochagua kwa mkopo wako wa nyumba itaamua kiwango ambacho utalipa mkopeshaji wako. Katika kesi ya mikopo ya nyumba ya kiwango kilichofungwa, malipo ya kila mwezi yanabaki sawa kwa kipindi chote cha mkopo. Viwango vinavyobadilika, kwa upande mwingine, vinabadilika kulingana na mabadiliko katika viwango vyake vya kukopesha kama Viwango vya Mkopo vya Kiunga cha Repo (RLLR). Wakopeshaji kwa kawaida hutoza viwango vya riba vya juu kwenye mikopo ya nyumba inayotolewa kwa viwango vya riba vya kiwango kilichofungwa kutokana na hatari kubwa ya kiwango cha riba kilichofungwa cha mikopo ya nyumba."
+                }
+            ]
+        },
+        {
+            "title": "Makala za Kupunguza Kiwango cha Riba cha Mkopo wa Nyumba",
+            "desc": "Wale wanaopanga kupata mikopo ya nyumba wanaweza jaribu kupata kwa viwango vya riba vya chini kwa kufuata vidokezo hivi chini:",
+            "type": "options",
+            "data": [
+                "Endelea kuweka alama yako ya mkopo iwe juu iwezekanavyo, kwa mapendekezo angalau 750",
+                "Tuma ombi la mkopo wa nyumba wa pamoja, kwa mapendekezo na mwanachama wa kike wa familia kwani baadhi ya wakopeshaji hutoa punguzo la kiwango cha riba kwa waombaji wa mkopo wa kike.",
+                "Wakopaji wa nyumba waliopo wanaweza kupunguza viwango vyao vya mkopo wa nyumba kwa kuhamisha salio lao lililobaki kwa mkopeshaji mwingine anayetoa kiwango cha riba cha chini",
+                "Wakopaji wengi hupanga viwango vya riba vya chini kwa waombaji wanao na uwiano mdogo wa LTV. Kwa hivyo, waombaji wa mkopo wa nyumba wanapaswa kuchangia kiwango kikubwa iwezekanavyo kuelekea malipo ya chini ya nyumbani ili kupunguza kiasi cha mkopo chao, ambacho kwa hivyo kinaweza kuwasaidia kupata viwango vya riba vya chini kwenye mikopo yao ya nyumba."
+            ]
+        }
+    ]
+}

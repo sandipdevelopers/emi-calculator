@@ -1,0 +1,43 @@
+<ion-header class="box-shadow-none ion-no-border">
+  <ion-toolbar mode="md">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{'History' | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="main">
+    <ng-container *ngIf="historyList && historyList.length ">
+      <ng-container *ngFor="let item of historyList">
+        <ion-card>
+          <ion-item (click)="presentActionSheet(item)">
+            <ion-icon slot="start" name="calculator-sharp"></ion-icon>
+            <ion-text>{{item.loanType | translate}} <span class="bold">| </span> {{item.amount}}
+              <br>
+              <h6>
+                {{item.createdDt | date:'mediumDate'}}
+              </h6>
+            </ion-text>
+            <ion-icon slot="end" name="chevron-forward"></ion-icon>
+          </ion-item>
+        </ion-card>
+       
+      </ng-container>
+    </ng-container>
+  
+
+
+    <ng-container *ngIf="historyList && !historyList.length">
+      <ion-grid>
+        <ion-row>
+          <ion-col class="ion-text-center" size="12"><ion-text class="bold"> {{'No Records.' | translate}}
+            </ion-text></ion-col>
+        </ion-row>
+      </ion-grid>
+    </ng-container>
+  </div>
+
+  <ion-text> </ion-text>
+</ion-content>

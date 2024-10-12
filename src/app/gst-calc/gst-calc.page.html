@@ -1,0 +1,64 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar mode="md">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{'Calculate GST' | translate}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="menu">
+    <ion-row>
+      <ion-col size="12">
+        <div class="content">
+          <ion-input type="number" mode="md" id="amount" [(ngModel)]="gstObj.amount" name="amount"
+            style="margin-bottom: 10px;" id="amount" label="{{'Amount' | translate}}" label-placement="floating"
+            fill="outline" placeholder="{{'Amount' | translate}}"></ion-input>
+
+          <ion-select [okText]="'Ok' | translate" [cancelText]="'Cancel' | translate" mode="md" fill="outline" [label]="'Select GST Rate' | translate"
+            [placeholder]="'GST Rate'| translate" [(ngModel)]="gstObj.rate" name="rate">
+            <ion-select-option value="5">5%</ion-select-option>
+            <ion-select-option value="12">12%</ion-select-option>
+            <ion-select-option value="18">18%</ion-select-option>
+            <ion-select-option value="28">28%</ion-select-option>
+          </ion-select>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="gstObj.amount" class="ion-text-center">
+      <ion-col size="12">
+        <div class="content">
+          <h3 class="ion-no-margin">{{'Initial Amount'| translate}}</h3>
+          <p>{{gstObj.amount}}</p>
+          <div>
+            <hr style="background: #cfcfcf;" />
+          </div>
+
+          <h3 class="ion-no-margin">{{'GST Amount' | translate}}</h3>
+          <p>{{gstObj.gstAmount.toFixed(2) || '0'}}</p>
+          <div>
+            <hr style="background: #cfcfcf;" />
+          </div>
+
+          <h3 class="ion-no-margin">{{'Total Amount' |translate}}</h3>
+          <p>{{gstObj.finalAmount.toFixed(2) || '0'}}</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer class="app-footer-class ion-no-border">
+  <ion-toolbar mode="md">
+    <ion-row>
+      <ion-col size="6">
+        <ion-button (click)="calc(1)" expand="block">{{'ADD GST' | translate}}</ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button (click)="calc(2)" expand="block">{{'SUBTRACT GST' | translate}}</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>

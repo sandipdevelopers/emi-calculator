@@ -1,0 +1,373 @@
+<ion-header class="box-shadow-none ion-no-border">
+   <ion-toolbar mode="md">
+      <ion-buttons slot="start">
+         <ion-back-button></ion-back-button>
+      </ion-buttons>
+      <ion-title>{{'Check Interest Rate'| translate}}</ion-title>
+   </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+   <div class="main">
+      <ion-grid class="menu">
+         <label>{{'Loan_Type' | translate}}</label>
+         <ion-row>
+            <ion-col size="4">
+               <ion-card (click)="changeLoanType( 'home-loan')"
+                  class="ion-no-margin {{loanType == 'home-loan' ?'active' :''}}">
+                  <p>
+                     <ion-icon color="dark" class="" name="home"></ion-icon>
+                  </p>
+                  <h6 class="">{{'Home' | translate}}</h6>
+               </ion-card>
+
+            </ion-col>
+            <ion-col size="4">
+               <ion-card (click)="changeLoanType('personal-loan')"
+                  class="ion-no-margin {{loanType == 'personal-loan' ?'active' :''}}">
+                  <p>
+                     <ion-icon color="dark" class="" name="person"></ion-icon>
+                  </p>
+                  <h6 class="">{{'Personal' | translate}}</h6>
+               </ion-card>
+
+            </ion-col>
+            <ion-col size="4">
+               <ion-card (click)="changeLoanType('car-loan')"
+                  class="ion-no-margin  {{loanType == 'car-loan' ?'active' :''}}">
+                  <p>
+                     <ion-icon color="dark" class="" name="car-sport"></ion-icon>
+                  </p>
+                  <h6 class="">{{'Car' | translate}}</h6>
+               </ion-card>
+
+            </ion-col>
+         </ion-row>
+      </ion-grid>
+   </div>
+
+   <ng-container *ngIf="loanType == 'home-loan'">
+      <ion-accordion-group>
+         <div class="main" style="min-height: 70vh; margin-top: 5px;">
+            <ng-container *ngFor="let item of rateData[loanType][helper.currentLan]; index as inx">
+
+               <!-- for table -->
+               <ion-accordion [value]="'for-table-' + inx" *ngIf="item.type == 'table'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+
+                     <div style="overflow-x: auto;">
+                        <table style="width:100vh">
+                           <tr style="background: #9190fc; color: white" class="border-none">
+                              <th style="width: 15px;">{{'Name of Lender' | translate}}</th>
+                              <th style="width: 15px;">{{'Up to Rs. 30 Lakh' | translate}}</th>
+                              <th style="width: 15px;">{{'Above Rs. 30 Lakh & Up to Rs. 75 Lak' | translate}}</th>
+                              <th style="width: 15px;">{{'Above Rs. 75 Lakh' | translate}}</th>
+                           </tr>
+                           <ng-container *ngFor="let subItem of item.data">
+                              <tr>
+                                 <td>{{subItem.bname | translate}}</td>
+                                 <td>{{subItem.upt30l | translate}}</td>
+                                 <td>{{subItem.upt75l | translate}}</td>
+                                 <td>{{subItem.abv75l | translate}}</td>
+                              </tr>
+                           </ng-container>
+                        </table>
+                     </div>
+                  </div>
+               </ion-accordion>
+
+               <!--for no-table-->
+               <ion-accordion [value]="'no-table-' + inx" *ngIf="item.type == 'no-table'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title |translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+                  </div>
+               </ion-accordion>
+
+               <!-- Ul LI list with discription -->
+               <ion-accordion [value]="'ul-li-with-discription-' + inx" *ngIf="item.type == 'option-with-des'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc | translate">
+                        {{item.desc}}
+                     </ion-text>
+
+                     <ul class="my-nav">
+                        <ng-container *ngFor="let subItem of item.data">
+                           <li>
+                              <b>{{subItem.title | translate}} : </b>
+                              <br />
+                              {{subItem.desc | translate}}
+                           </li>
+                        </ng-container>
+                     </ul>
+                  </div>
+               </ion-accordion>
+
+               <!-- Ul LI list -->
+               <ion-accordion [value]="'ul-li-list-' + inx" *ngIf="item.type == 'options'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+
+                     <ul class="my-nav">
+                        <ng-container *ngFor="let subItem of item.data">
+                           <li>{{subItem | translate}}</li>
+                        </ng-container>
+                     </ul>
+                  </div>
+               </ion-accordion>
+            </ng-container>
+         </div>
+      </ion-accordion-group>
+   </ng-container>
+
+   <ng-container *ngIf="loanType == 'personal-loan'">
+      <ion-accordion-group>
+         <div class="main" style="min-height: 70vh; margin-top: 5px;">
+            <ng-container *ngFor="let item of rateData[loanType][helper.currentLan]; index as inx">
+
+               <!-- for table -->
+               <ion-accordion [value]="'for-table-' + inx" *ngIf="item.type == 'table'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+
+                     <div style="overflow-x: auto;">
+                        <table style="width:100vh">
+                           <tr style="background: #9190fc; color: white" class="border-none">
+                              <th style="width: 15px;">{{'Bank'| translate}}</th>
+                              <th style="width: 15px;">{{'Interest Rate (p.a.)'| translate}}</th>
+                              <th style="width: 15px;">{{'Processing Fee'| translate}}</th>
+                           </tr>
+                           <ng-container *ngFor="let subItem of item.data">
+                              <tr>
+                                 <td>{{subItem.bname | translate}}</td>
+                                 <td>{{subItem.rate | translate}}</td>
+                                 <td>{{subItem.pfees| translate}}</td>
+                              </tr>
+                           </ng-container>
+                        </table>
+                     </div>
+                  </div>
+               </ion-accordion>
+
+               <!--for no-table-->
+               <ion-accordion [value]="'no-table-' + inx" *ngIf="item.type == 'no-table'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+                  </div>
+               </ion-accordion>
+
+               <!-- Ul LI list with discription -->
+               <ion-accordion [value]="'ul-li-with-discription-' + inx" *ngIf="item.type == 'option-with-des'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+
+                     <ul class="my-nav">
+                        <ng-container *ngFor="let subItem of item.data">
+                           <li>
+                              <b>{{subItem.title | translate}} : </b>
+                              <br />
+                              {{subItem.desc | translate}}
+                           </li>
+                        </ng-container>
+                     </ul>
+                  </div>
+               </ion-accordion>
+
+               <!-- Ul LI list -->
+               <ion-accordion [value]="'ul-li-list-' + inx" *ngIf="item.type == 'options'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+
+                     <ul class="my-nav">
+                        <ng-container *ngFor="let subItem of item.data">
+                           <li>{{subItem | translate}}</li>
+                        </ng-container>
+                     </ul>
+                  </div>
+               </ion-accordion>
+            </ng-container>
+         </div>
+      </ion-accordion-group>
+   </ng-container>
+
+   <ng-container *ngIf="loanType == 'car-loan'">
+      <ion-accordion-group>
+         <div class="main" style="min-height: 70vh; margin-top: 5px;">
+            <ng-container *ngFor="let item of rateData[loanType][helper.currentLan]; index as inx">
+
+               <!-- for table -->
+               <ion-accordion [value]="'for-table-' + inx" *ngIf="item.type == 'table'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+
+                     <div style="overflow-x: auto;">
+                        <table style="width:100vh">
+                           <tr style="background: #9190fc; color: white" class="border-none">
+                              <th style="width: 15px;">{{'Name of the Bank' | translate}}</th>
+                              <th style="width: 15px;">{{'Interest Rate (p.a.)' | translate}}</th>
+                              <th style="width: 15px;">{{'EMI for Rs.1 lakh for 7 years' | translate}}</th>
+                           </tr>
+                           <ng-container *ngFor="let subItem of item.data">
+                              <tr>
+                                 <td>{{subItem.bname | translate}}</td>
+                                 <td>{{subItem.rate | translate}}</td>
+                                 <td>{{subItem.emiPerLac | translate}}</td>
+                              </tr>
+                           </ng-container>
+                        </table>
+                     </div>
+                  </div>
+               </ion-accordion>
+
+               <!-- for table diff -->
+               <ion-accordion [value]="'for-table-diff-' + inx" *ngIf="item.type == 'table-diff'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title | translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc | translate}}
+                     </ion-text>
+
+                     <div style="overflow-x: auto;">
+                        <table style="width:100vh">
+                           <tr style="background: #9190fc; color: white" class="border-none">
+                              <th style="width: 15px;">{{'Fixed interest rate' | translate}}</th>
+                              <th style="width: 15px;">{{'Floating interest rate' | translate}}</th>
+                           </tr>
+                           <ng-container *ngFor="let subItem of item.intRateDiff">
+                              <tr>
+                                 <td>{{subItem.fixedIntRate |translate}}</td>
+                                 <td>{{subItem.floatIntRate |translate}}</td>
+                              </tr>
+                           </ng-container>
+                        </table>
+                     </div>
+                  </div>
+               </ion-accordion>
+
+               <!--for no-table-->
+               <ion-accordion [value]="'no-table-' + inx" *ngIf="item.type == 'no-table'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title |translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc ">
+                        {{item.desc |translate}}
+                     </ion-text>
+                  </div>
+               </ion-accordion>
+
+               <!-- Ul LI list with discription -->
+               <ion-accordion [value]="'ul-li-with-discription-' + inx" *ngIf="item.type == 'option-with-des'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title |translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc |translate}}
+                     </ion-text>
+
+                     <ul class="my-nav">
+                        <ng-container *ngFor="let subItem of item.data">
+                           <li>
+                              <b>{{subItem.title |translate}} : </b>
+                              <br />
+                              {{subItem.desc |translate}}
+                           </li>
+                        </ng-container>
+                     </ul>
+                  </div>
+               </ion-accordion>
+
+               <!-- Ul LI list -->
+               <ion-accordion [value]="'ul-li-list-' + inx" *ngIf="item.type == 'options'">
+                  <ion-item lines="none" slot="header" color="white">
+                     <ion-label>
+                        {{item.title |translate}}
+                     </ion-label>
+                  </ion-item>
+                  <div class="ion-padding" slot="content">
+                     <ion-text *ngIf="item.desc">
+                        {{item.desc |translate}}
+                     </ion-text>
+
+                     <ul class="my-nav">
+                        <ng-container *ngFor="let subItem of item.data">
+                           <li>{{subItem |translate}}</li>
+                        </ng-container>
+                     </ul>
+                  </div>
+               </ion-accordion>
+            </ng-container>
+         </div>
+      </ion-accordion-group>
+   </ng-container>
+</ion-content>
